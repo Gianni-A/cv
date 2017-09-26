@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Curriculum vtae</title>
+
+<link rel="Stylesheet" type="text/css" href="css/estilos.css" media="screen and (max-width:6400px) and (min-width:1150px)">
+<link rel="Stylesheet" href="css/tablet.css" type="text/css" media="screen and (max-width:1150px) and (min-width:775px)">
+<link rel="Stylesheet" href="css/movil.css" type="text/css" media="screen and (max-width:775px) and (min-width:1px)">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/skel-layers.min.js"></script>
+<script src="js/init.js"></script>
+
+<script>
+
+$(document).ready(function() {
+    var x = document.getElementsByClassName("link depth-0");
+    if ($(window).width() <= 775){
+        x[4].style.display = "none";
+    }
+
+    $(window).resize(function(e) {
+    x[4].style.display = "none";
+    //console.log($(window).width());
+    });
+});
+
+/*Poner la duración de tiempo de experiencia de trabajo*/
+var entrada = new Date("12/1/2014");
+var hoy = new Date();
+var years = hoy.getFullYear() - entrada.getFullYear();
+var months = hoy.getMonth() + 1;
+
+// Setear el año actual
+entrada.setFullYear(hoy.getFullYear());
+
+// Si todavia no es la fecha, se resta un año.
+if (hoy < entrada)
+{
+    years--;
+}
+if (hoy.getMonth() == entrada.getMonth())
+{
+    months = 0;
+}
+var cadena;
+if (months == 1){
+    cadena = "mes";
+}
+else{
+    cadena = "meses";
+}
+
+</script>
+
+</head>
+
+<body>
+    <div class="superior">
+        <div class="cuadro-superior">
+        <img src="../img/logo.png" class="logo">
+        <br><span>Bienvenido</span>
+      </div>
+    </div>
+
+    <div class="cabeza">
+        <div class="cuadro-titulo">
+        <p class="mundo">Hagamos un mejor mundo realizando procesos que cambien la vida</p>
+        </div>
+    </div>
+  <div class="cuadro-menu">
+    <div class="menu">
+        <nav id="nav">
+					<ul class="ocultar">
+						<a href="../menu/" ><li class="bordito1" id="inicio">Inicio</li></a>
+						<a href="../conocimientos/" ><li class="bordito" id="conocimiento">Conocimientos</li></a>
+						<a href="../experiencia/"><li class="bordito" id="experiencia">Experiencia</li></a>
+						<a href="material/"><li id="materias">Certificaciones</li></a>
+					</ul>
+				</nav>
+       </div>
+    </div>
+
+    <div class="cuerpo">
+        <div class="cuadro-texto">
+            <div class="box4">
+            <h1 class="text-perfil">Pequeña introducción de mi perfil</h1><br>
+
+            <p class="biog">Soy desarrollador de software con más  de <script>document.write(years+" años y "+months+" "+cadena);</script> de experiencia realizando procesos para diferentes plataformas, ya sea para Web, para Apps Móviles, para software de escritorio. En mis tiempos libres me dedico mucho a estudiar nuevas tecnologías las cuales me ayudan a desarrollarme más como profesional al igual realizo proyectos personales para adquirir experiencia en el ámbito tecnológico. En otras ocasiones me informo de nuevas plataformas que van saliendo día a día, esto es con el fin de poder estar actualizado y preparándome más para nuevos retos.</p>
+            </div> <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <div class="box1">
+            <div class="separador"></div>
+            <h1 class="title-curso-txt">Cursos</h1>
+            <p class="des-curso">En este apartado se mostraran los cursos que sigo día a día con el fin de prepárame más. Los cursos que mayormente sigo son www.platzi.com y www.video2brain.com</p><br/>
+            <div class="curso">
+                <img src="img/coursera.jpg" class="curso-imagen"><br><br>
+                <a href="https://www.coursera.org/" target="_blank" class="link">https://www.coursera.org</a>
+                <p class="cursos">Coursera es una plataforma de educación virtual gratuita nacida en octubre de 2011 y desarrollada por académicos de la Universidad de Stanford con el fin de brindar oferta de educación masiva a la población, con cursos en inglés y otros idiomas como el español, francés, italiano y chino.</p>
+            </div>
+            <div class="curso2">
+              <img src="img/platzi.jpg" class="curso-imagen"><br><br>
+              <a href="https://platzi.com/" target="_blank" class="link">https://platzi.com/</a>
+              <p class="cursos">Platzi es uno de los cursos que me ha ayudado a mejorar y conocer nuevas tecnologías y métodos de la programación, al igual veo de diferentes categorías como Marketing Online, Diseño web y Aplicaciones móviles.</p>
+            </div>
+            <div class="curso3">
+              <img src="img/video2brain.jpg" class="curso-imagen"><br><br>
+              <a href="http://video2brain.com/" target="_blank" class="link">http://video2brain.com/</a>
+              <p class="cursos">Video2Brain son cursos españoles en donde aprendí y sigo aprendiendo mucho acerca de diseño y programación, estos cursos siempre están actualizados al día de lo que se está usando.</p>
+            </div>
+        </div>
+            <div class="box3">
+              <div class="separador"></div>
+              <h1>Tiempos Libres</h1>
+              <p class="des-curso">Por otro lado también aprovecho del tiempo libre para leer y estar enterado de las innovaciones que pasa por todo el mundo y así mismo para prepararme de nuevos retos que enfrentaría en un futuro dado.</p><br/>
+            </div>
+
+            <div class="col1">
+              <img src="img/emol2.jpg" class="times-imagen">
+              <p class="tiempos">Emol es una de las páginas de noticias más conocidas por el lado Chileno la cual me abarco de noticias que son sobre el tema acerca de tecnología y más.</p>
+              <a href="http://www.emol.com/" target="_blank" class="times-link">Más Información</a>
+            </div>
+
+            <div class="col2">
+              <img src="img/hipertextual2.jpg" class="times-imagen">
+              <p class="tiempos">hipertextual o antes conocido como ALT 1040 es una página española que muestra noticias de lo que está pasando en el mundo, mayormente leo noticias acerca de tecnología.</p>
+              <a href="http://hipertextual.com/" target="_blank" class="times-link2">Más Información</a>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <footer>
+        <div class="pie">
+            <p class="texto-pie">¡Gracias por su visita!</p>
+        </div>
+    </footer>
+</body>
+</html>

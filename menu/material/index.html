@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Certificaciones</title>
+<link rel="stylesheet" href="css/estilo.css" media="screen and (max-width:5500px) and (min-width:920px)"/>
+<link rel="Stylesheet" href="css/tablet.css" media="screen and (max-width:920px) and (min-width:670px)">
+<link rel="stylesheet" href="css/movil.css" media="screen and (max-width:670px) and (min-width:1px)"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<script type="text/javascript" src="../../js/funciones.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/skel-layers.min.js"></script>
+<script src="js/init.js"></script>
+
+<script>
+
+$(document).ready(function() {
+    var x = document.getElementsByClassName("link depth-0");
+    if ($(window).width() <= 670){
+        x[4].style.display = "none";
+    }
+
+    $(window).resize(function(e) {
+    x[4].style.display = "none";
+    });
+
+});
+</script>
+
+</head>
+
+<body>
+    <div class="superior">
+        <div class="cuadro-superior">
+          <img src="../../img/logo.png" class="logo">
+          <p class="titulo">Certificaciones</p>
+        </div>
+    </div>
+
+    <div class="cuadro-menu">
+    <div class="clear"></div>
+       <div class="menu">
+          <nav id="nav">
+              <ul class="ocultar">
+                  <a href="../../menu/" ><li class="bordito" id="inicio">Inicio</li></a>
+                  <a href="../../conocimientos/" ><li class="bordito" id="conocimiento">Conocimientos</li></a>
+                  <a href="../../experiencia/"><li class="bordito" id="experiencia">Experiencia</li></a>
+                  <a href="../material/"><li>Certificaciones</li></a>
+              </ul>
+          </nav>
+       </div>
+    </div>
+    <script>
+        loadJSON("../../informacion.json", function (response) {
+            var datos = JSON.parse(response);
+            var cadena = "";
+            var longitud = datos[0].cursos.length - 1;
+            console.log(longitud);
+            for(var i=0; i<=longitud; i++){
+                cadena += "<div class='columnas'><h3>"+datos[0].cursos[i].titulo+"</h3><p>"+datos[0].cursos[i].texto+"</p>";
+                cadena += "<a class='link_pdf' href='pdfs/"+datos[0].cursos[i].url+"' target='_blank'>Ver PDF</a></div>";
+            }
+            document.getElementById("resultado").innerHTML = cadena;
+        });
+    </script>
+
+    <div class="cuerpo">
+        <div class="cuadro">
+            <div id="resultado"></div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="pie">
+            <p class="texto-pie">¡Gracias por su visita!</p>
+        </div>
+    </footer>
+</body>
+</html>

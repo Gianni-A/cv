@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+.clear
+{
+  clear:both;
+}
+.superior {
+    background-color: #424243;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    
+}
+
+.cuadro-superior {
+    width: 900px;
+    height: 100px;
+    margin: auto;
+    padding-left: 0px;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    float: left;
+    margin-top: -5px;
+    
+}
+
+.titulo {
+    float: left;
+    font-size: 23px;
+    font-weight: bold;
+    /*font-family: sans-serif;*/
+    color: white;
+    padding-left: 100px;
+    margin-top: 30px;
+}
+
+.cuadro-menu {
+    width: 100%;
+    height: 50px;
+    background-color: #71bcb3; 
+    margin-top: -16px;
+    padding-left: 150px;
+}
+
+.menu {
+    width: 700px;
+    height: 50px;
+    margin: auto;
+    
+}
+
+.link-contact{
+    display: none;
+}
+
+.menu nav ul li {
+    float: left;
+    margin-top: 5px;
+    margin-left:  30px;
+    cursor: pointer;
+    padding-right: 20px;
+    text-decoration: none;
+    list-style-type: none;
+	font-weight: bold;
+}
+
+.bordito {
+    border-right: 1px solid #FFF;
+}
+
+#conocimiento{
+    transition: 0.5s;
+}
+
+#conocimiento:hover{
+    color: #c4ddbb;
+    transition: 0.5s;
+}
+
+#experiencia{
+    transition: 0.5s;
+}
+
+#experiencia:hover{
+    color: #fcd293;
+    transition: 0.5s;
+}
+
+#inicio{
+    transition: 0.5s;
+}
+
+#inicio:hover{
+    color: #8598a0;
+    transition: 0.5s;
+}
+
+a {
+    color: #FFF;
+}
+
+.menu nav ul li:hover {
+    color: black;
+}
+
+/*Cuerpo de pagina*/
+
+.cuerpo {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cuadro {
+    max-width: 1000px;
+    height: auto;
+    border: 1px solid #c6c6c6;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    padding-left: 65px;
+    padding-top: 15px;
+}
+
+h3 {
+    color: #ff555c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.link_pdf {
+    color: #777;
+    box-shadow: inset 0 0 0 2px #71bcb3;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    display: inline-block;
+    font-weight: 400;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 2em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 6px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.columnas {
+    border: 1px solid #dedede;
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+    box-shadow: inset -10px 3px 29px -7px rgba(184,184,184,1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.columnas ul li {
+    
+    text-align: left;
+    margin-left: 10px;
+    list-style: inside;
+}
+
+/*Pie de pagina*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #363434; 
+}
+
+.pie {
+    width: 900px;
+    height: 100px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.texto-pie {
+    color: #FFF;
+    padding-top: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 60px;
+}

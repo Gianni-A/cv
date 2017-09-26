@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ocultar {
+    display: none;
+}
+
+.superior {
+    background-color: #424243;
+    width: 100%;
+    height: 160px;
+    margin: 0;
+    padding-top: 30px;
+}
+
+
+.cuadro-superior {
+    width: 160px;
+    height: 70px;
+    margin: auto;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: bold;
+    /*font-family: sans-serif;*/
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: -20px;
+}
+
+/*Cuerpo de pagina*/
+
+.cuerpo {
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+    
+}
+
+.cuadro {
+    max-width: 300px;
+    height: auto;
+    border: 3px solid #c6c6c6;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    color: #ff555c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.link_pdf {
+    color: #777;
+    box-shadow: inset 0 0 0 2px #71bcb3;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    display: inline-block;
+    font-weight: 400;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 2em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 6px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.separa {
+    height: 10px;
+}
+
+.columnas {
+    border: 1px solid #dedede;
+    max-width: 250px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    box-shadow: inset -10px 3px 29px -7px rgba(184,184,184,1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*Pie de pagina*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #363434; 
+}
+
+.pie {
+    max-width: 300px;
+    height: 100px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin: auto;
+    text-align: center;
+}
+
+.texto-pie {
+    color: #FFF;
+    padding-top: 35px;
+    font-size: 22px;
+    letter-spacing: 2px;
+}

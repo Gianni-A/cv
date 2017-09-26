@@ -1,0 +1,481 @@
+﻿[
+  {
+    "modulo": "certificados",
+    "cursos":[
+      {
+        "titulo": "HTML5, CSS",
+        "texto": "Curso aprobado de HTML5 con CSS3 para la creación de páginas web",
+        "url": "html5.pdf"
+      },
+      {
+        "titulo": "Responsive Design",
+        "texto": "Curso aprobado de responsive design para adaptar los tamaños de páginas web para móviles.",
+        "url": "responsive.pdf"
+      }
+    ]
+  },
+  {
+    "modulo": "experiencia",
+    "proyectos": [
+      {
+        "titulo": "Desarrollo Innovador de Sistemas",
+        "imagen": "img/dis.png",
+        "descripcion": "Mi último trabajo fue en Desarrollo Innovador de Sistemas, en donde colabore como desarrollador, diseñador y otras funcionalidades. Manejando el IDE Windev para crear aplicaciones de escritorio así como servicios de Windows para hacer ciertas funcionalidades. Tiempo de trabajo 2 años y 9 meses.",
+        "empresa": "DISXII",
+        "website": "http://www.disxii.com/",
+        "imagen_empresa": "img/disxii2.png",
+        "descripcion_empresa": "Desarrollo de soluciones de software: Emisión de Factura y otros documentos electrónicos. Recepción y validación de Facturación Electrónica. Expedientes Virtuales, WorkFlow, etc. Sitios web especializados. Interfaces entre soluciones ERP, CRM, HelpDesk, etc. Proyectos de sistemas de información en dispositivos móviles. (Android) Telecomunicaciones: Equipo y mantenimiento de cómputo."
+      },
+      {
+        "titulo": "Recargas Electrónicas (Telcel, Movistar, Nextel, etc)",
+        "imagen": "img/recargatodo.jpg",
+        "descripcion": "Elabore en la empresa Tridex Evolution, dedicada a comunicaciones de telefonía donde presté mis servicios como soporte técnico, mantenimiento del sistema, desarrollo de módulos en .NET, PHP y atención a clientes.",
+        "empresa": "Tridex Evolution",
+        "website": "http://goo.gl/67XKem",
+        "imagen_empresa": "img/logo_empresa/recargas.jpg",
+        "descripcion_empresa": "RecargaTodo es una empresa dedicada a la venta y distribución de Tiempo Aire Electrónico (TAE) por medio de internet y celular a toda la república mexicana. Brindan asesoría personalizada con absoluta seriedad, respeto, eficiencia e innovación al cliente. Cuentan con más de 20 años en el mercado, además de contar con los mejores sistemas del mercado para la venta y distribución de TAE a nivel nacional."
+      },
+      {
+        "titulo": "Sistema de Inventarios",
+        "imagen": "img/mcbravos.jpg",
+        "descripcion": "Se desarrolló un sistema de inventarios vía web donde realiza dichas actividades: se tienen altas, bajas y modificaciones tanto para el usuario como para datos del sistema. Fue creado en PHP, HTML, CSS, Javascript con Ajax y MySQL. El proyecto se realizó en la ciudad de Cancún para realizar prácticas profesionales.",
+        "empresa": "McBravos",
+        "website": "http://www.mcbravos.com",
+        "imagen_empresa": "img/logo_empresa/istrid.jpg",
+        "descripcion_empresa": "Ubicados en la ciudad de Cancún, México, se dedican a la Creación y Ejecución de Estrategias de Mercadotecnia por Internet, mediante la utilización de recursos de vanguardia y la innovación. McBravos desarrolla e implementan estrategias digitales para incrementar la promoción y consecuentemente las ventas de sus clientes. Los valores se resumen en 7 puntos: Compromiso, Actitud, Excelencia, Innovación, Equipo, Equilibrio y Sistemas."
+      },
+      {
+        "titulo": "Sistema para archivos Excel",
+        "imagen": "img/guiaga.jpg",
+        "descripcion": "Se desarrolló un sistema que llevará el control de archivos de Excel tanto para guardarlos en una base de datos como para mostrar los resultados que se tienen en Excel al programa, este sistema puede exportar e importar archivos de Excel de igual forma se pueden agregar modificar y eliminar datos en los archivos dentro del sistema. El sistema fue hecho totalmente en C# y su Gestor de base de datos fue MySQL. Este proyecto fue realizado en la ciudad de Cancún para realizar prácticas profesionales.",
+        "empresa": "Corporativo Canto Viana y Asociados",
+        "website": "http://www.corporativocantoviana.com/",
+        "imagen_empresa": "img/logo_empresa/canto.jpg",
+        "descripcion_empresa": "Es una empresa que atiende áreas como son: administración, cobranza y de litigio. Se ha respaldado tanto de la infraestructura necesaria como de una buena metodología permitiendo estrategias de cobranza eficaces, que se traducen en resultados inmediatos evitando dañar la integridad de los usuarios y manteniendo sana la imagen de sus clientes. Cuentan con más de 8 años de experiencia en manejo de recuperación de carteras vencidas de sus clientes los cuales son líderes en el mercado, esta recuperación se realiza tanto por la vía extrajudicial como por la vía Judicial, también se han enfocado a incrementar las utilidades de sus clientes con un alto nivel de servicio."
+      },
+      {
+        "titulo": "AdminFactura",
+        "imagen": "img/admin.jpg",
+        "descripcion": "Se desarrollaron módulos para un sistema de Facturación Electrónica, este sistema fue creado vía web con sus respectivos lenguajes: PHP, Patrón de diseño MVC, HTML, CSS, JQuery y MySQL. Por otro lado usaba un framework llamado Bootstrap la cual ayudaba mucho para el diseño de la interfaz de usuario. Sus funciones son el dar altas, bajas y ediciones de registros que se tienen en la base de datos, al igual de poder hacer timbrados para el SAT con las herramientas como Web Services y el lenguaje XML.",
+        "empresa": "Mangoo Software",
+        "website": "http://mangoo.mx/",
+        "imagen_empresa": "img/logo_empresa/mangoo.jpg",
+        "descripcion_empresa": "Mangoo Software es un grupo de profesionales  en Tecnologías de la Información, Diseño y Marketing comprometidos con la satisfacción de los clientes. Analizan las necesidades de los clientes cualquiera que sea su tamaño y ofrecen Soluciones Inteligentes a través del uso y desarrollo de herramientas tecnológicas para la mejora de sus procesos de negocio. La empresa brinda soluciones inteligentes, efectivas y redituables para la ejecución de operaciones de negocio mediante un servicio personalizado a través del análisis de las oportunidades, necesidades y condiciones específicas de cada cliente destacando ante todo la calidad, eficiencia y profesionalismo en todos y cada uno de sus productos, desarrollos y soluciones."
+      }
+    ]
+  },
+  {
+    "modulo": "Conocimiento",
+    "lenguages": [
+      {
+        "nombre": "PHP",
+        "imagen": "img/php.jpg",
+        "descripcion": "PHP es el segundo lenguaje con mayor conocimiento y experiencia en el ámbito laboral.",
+        "titulo": "Proyectos realizados en PHP",
+        "sistemas": [
+          {
+            "tooltip": "Horarios",
+            "imagen": "img/horarios.jpg",
+            "programa": [
+              {
+                "titulo": "Sistema de Horarios",
+                "texto": "El sistema de horarios fue desarrollado con el fin de mejorar los procesos que se tenían dentro de la Universidad en cuestión de turnos, ya que presentaban con fallas y malas organizaciones al momento de asignar horarios y actividades para cada usuario.",
+                "nota": "Este proyecto se hizo gracias con otros compañeros de clase la cual fue presentada ante la auditoria para después puedan utilizar el sistema a su criterio.",
+                "descripciones": [
+                  {
+                    "imagen": "img/horarios/inicio.jpg",
+                    "descripcion": "En la principal ventana que obtienes al abrir la aplicación es su inicio de sesión, la cual requiere de un usuario y contraseña para poder entrar al sistema, el login maneja distintos tipos de usuarios para cada proceso."
+                  },
+                  {
+                    "imagen": "img/horarios/menu.jpg",
+                    "descripcion": "Una vez entrando al sistema, obtienes un menú con múltiples opciones donde podrás realizar las actividades que ya están asignadas para cada tipo de usuario. Estas actividades fueron definidas por parte de la universidad."
+                  },
+                  {
+                    "imagen": "img/horarios/ventanas.jpg",
+                    "descripcion": "En la mayoría de las ventanas realiza acciones para agregar, modificar o eliminar ciertos datos requeridos por los usuarios."
+                  },
+                  {
+                    "imagen": "img/horarios/espacios.jpg",
+                    "descripcion": "Existe un módulo donde puedes modificar el diseño del área en toda la Universidad, a su vez cada cuadro enseña una pequeña información donde podrás obtener un pequeño resumen de ese salón o aula."
+                  },
+                  {
+                    "imagen": "img/horarios/reporte.jpg",
+                    "descripcion": "En el módulo de reportes puedes generar en formato PDF la información almacena en la BD que existe por causa de registros para el control de horarios ya sea para cada maestro, alumnos o el personal de la escuela."
+                  },
+                  {
+                    "imagen": "img/horarios/configuracion.jpg",
+                    "descripcion": "El módulo de configuración te ayuda a modificar ciertas políticas que pueden estar o no establecidas por parte de la Universidad."
+                  },
+                  {
+                    "imagen": "img/horarios/usuarios.jpg",
+                    "descripcion": "Se pueden administrar los usuarios para indicar a cada uno que tipo de usuario es y que procesos puede realizar."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tooltip": "Almacén de productos",
+            "imagen": "img/almacen.jpg",
+            "programa": [
+              {
+                "titulo": "Almacén de productos registrados",
+                "texto": "El sistema de almacén fue realizado con el fin de resolver el problema de una empresa en cuanto al inventario de sus productos de cómputo.",
+                "nota": "Este proyecto se realizó por unas prácticas que tome cuando aún estaba cursando la universidad.",
+                "descripciones": [
+                  {
+                    "imagen": "img/almacen/login.jpg",
+                    "descripcion": "En la primera página de este sistema se muestra lo que es un formulario donde puedes ingresar tus datos para poder ingresar al sistema."
+                  },
+                  {
+                    "imagen": "img/almacen/registro_usuario.jpg",
+                    "descripcion": "En otra página dentro del sistema se encuentra el formulario para registrar usuarios y así de tal modo puedan entrar al sistema, esta página de registros no puede ser vista más que únicamente por el administrador."
+                  },
+                  {
+                    "imagen": "img/almacen/registro_producto.jpg",
+                    "descripcion": "En el menú del sistema se encuentran varias opciones donde podrás realizar altas, bajas y modificaciones de los registros."
+                  },
+                  {
+                    "imagen": "img/almacen/entregas.jpg",
+                    "descripcion": "En el menú del sistema se encuentran varias opciones donde podrás visualizar un formulario con sus respectivos registros."
+                  },
+                  {
+                    "imagen": "img/almacen/general.jpg",
+                    "descripcion": "Al igual dentro de las opciones que obtienen los usuarios, hay un módulo donde pueden visualizar todos los productos registrados y con sus respectivas cantidades reales, cambian de número dependiendo de las entradas y salidas que hayan tenido."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tooltip": "Autorización de solicitudes",
+            "imagen": "img/solicitud.jpg",
+            "programa": [{
+                "titulo": "Autorización de solicitudes",
+                "texto": "El portal de autorización fue creado para asuntos internos por parte de la empresa DisXII.",
+                "nota": "",
+                "descripciones": [
+                  {
+                    "imagen": "img/otros/correct.png",
+                    "descripcion": "En el sistema existen dos funciones que permiten al usuario autorizar solicitudes, una de ellas es autorizar la solicitud que ha solicitado el usuario, de este modo cuando se activa el evento se envía un correo al solicitante y se generan otros procesos."
+                  },
+                  {
+                    "imagen": "img/otros/incorrect.jpg",
+                    "descripcion": "La segunda función del portal es para rechazar la solicitud que ha solicitado el usuario, de este modo cuando se rechaza la solicitud se envía un correo al solicitante de que su solicitud ha sido rechazada."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tooltip": "Contabilidad electrónica",
+            "imagen": "img/contabilidad.jpg",
+            "programa": [{
+                "titulo": "Contabilidad electrónica",
+                "texto": "Portal que sirve a las empresas para llevar la Contabilidad electrónica por medio de un portal hecho en web.",
+                "nota": "Sistema creado por la empresa Desarrollo Innovador de Sistemas.",
+                "descripciones": [
+                  {
+                    "imagen": "img/otros/contable.jpg",
+                    "descripcion": "En el portal hay un login donde el usuario tendrá que ingresar sus datos para poder entrar al sistema."
+                  },
+                  {
+                    "imagen": "img/otros/contable.jpg",
+                    "descripcion": "Entrando al sistema existe un menú en la parte superior y un contenedor en la parte central para poder administrar los datos."
+                  },
+                  {
+                    "imagen": "img/otros/contable.jpg",
+                    "descripcion": "En el portal se pueden agregar, modificar o eliminar: Pólizas, Balances, Catálogos, etc."
+                  },
+                  {
+                    "imagen": "img/otros/contable.jpg",
+                    "descripcion": "Se pueden visualizar los datos en un XML generado por el sistema y si se desea descargar, se comprime en un Zip para después ser descargado."
+                  },
+                  {
+                    "imagen": "img/otros/contable.jpg",
+                    "descripcion": "Tiene herramientas que faciliten la búsqueda de los registros y se puedan modificar."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "HTML, HTML5",
+        "imagen": "img/html.png",
+        "descripcion": "HTML5 conocimientos y experiencia de un 70%.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "CSS, CSS3",
+        "imagen": "img/css.png",
+        "descripcion": "CSS3 conocimientos y experiencia de un 65%.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Web Responsive Design",
+        "imagen": "img/WRD.jpg",
+        "descripcion": "Responsive Design es una de las tecnologías que tengo conocimientos básico-intermedio para hacer maquetado de páginas web de modo escritorio a móviles.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Javascript",
+        "imagen": "img/javascript.jpg",
+        "descripcion": "Manejo Javascript como experiencia básica lo cual me ayuda a realizar algunas interacciones para el usuario dentro del HTML.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "JQuery",
+        "imagen": "img/jquery.png",
+        "descripcion": "Jquery es una potente librería de Javascript la cual me ayuda a agilizar y/u optimizar los procesos del usuario.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Patron de diseño MVC",
+        "imagen": "img/mvc.jpg",
+        "descripcion": "Es un modelo que use en un proyecto llamado 'AdminFactura'. Este modelo fue usado para organizar el proyecto y fuera más sencillo su mantenimiento.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Java",
+        "imagen": "img/java.png",
+        "descripcion": "Java es una de las tecnologías que use para desarrollar un sistema de CHAT con sockets.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Android",
+        "imagen": "img/android.png",
+        "descripcion": "Desarrollo en Android con java (Nativo) las cuales puedo desarrollar Apps con base de datos SQLite.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "C#",
+        "imagen": "img/C_Sharp.png",
+        "descripcion": "C# un lenguaje de programación donde desarrolle aplicaciones en consola y Windows forms como una calculadora, un juego, etc.",
+        "titulo": "Proyectos realizados en C#",
+        "sistemas": [
+          {
+            "tooltip": "Sistema de inventarios",
+            "imagen": "img/zoologico.jpg",
+            "programa": [
+              {
+                "titulo": "Inventario de un zoológico",
+                "texto": "El programa cuenta con un sistema que lleva el control de todos los registros dentro de un zoológico, en el sistema se puede dar de alta, baja y modificaciones.",
+                "nota": "Proyecto creado en la escuela, todo es acerca de Windows forms.",
+                "descripciones": [
+                  {
+                    "imagen": "img/zoologico/progressbar.jpg",
+                    "descripcion": "Cuando se inicia el sistema, aparece una ventana significando que el programa está cargando y esto a su vez ayuda al usuario al saber que el sistema se encuentra cargando los archivos."
+                  },
+                  {
+                    "imagen": "img/zoologico/iniciosesion.jpg",
+                    "descripcion": "Una vez terminada la carga del programa aparece un cuadro donde puedes ingresar tus datos de sesión para así poder entrar al sistema."
+                  },
+                  {
+                    "imagen": "img/zoologico/registroUsuario.jpg",
+                    "descripcion": "Si no estás registrado no podrás entrar al sistema, de tal modo que se creó una ventana donde puedes crearlo y así se poder entrar al sistema."
+                  },
+                  {
+                    "imagen": "img/zoologico/menu.jpg",
+                    "descripcion": "Si tu usuario y contraseña son correctos, te aparecerá un menú donde hay una serie de opciones las cuales podrás elegir para realizar dichas operaciones."
+                  },
+                  {
+                    "imagen": "img/zoologico/menu%20archivo.jpg",
+                    "descripcion": "Dentro del menú en la parte superior de la ventana se encuentran más opciones para realizar diferentes tareas o ir a diferentes ventanas del sistema como la ayuda, reportes, salir del sistema o realizar tareas básicas de administración."
+                  },
+                  {
+                    "imagen": "img/zoologico/agregar.jpg",
+                    "descripcion": "Una de las tareas básicas de administración es el poder agregar en este caso a un animal que llega al zoológico, de tal modo se registra para tener más acierto un control de cuantos animales por cada tipo hay en el zoológico."
+                  },
+                  {
+                    "imagen": "img/zoologico/eliminar.jpg",
+                    "descripcion": "De igual manera se pueden eliminar registros ya sea por alguna situación  que se presente, para eliminar un dato con solo dos pasos se pueden eliminar registros."
+                  },
+                  {
+                    "imagen": "img/zoologico/buscar.jpg",
+                    "descripcion": "Si deseas buscar información de cierto animal, existe una ventana donde puedes consultar sus datos."
+                  },
+                  {
+                    "imagen": "img/zoologico/validacion.jpg",
+                    "descripcion": "Para el usuario existen validaciones que impiden realizar actividades que provoquen algún tipo de error y así el programa siga funcionando."
+                  },
+                  {
+                    "imagen": "img/zoologico/reportes.jpg",
+                    "descripcion": "Al final de todo existe una opción donde puedes realizar tus reportes de todos los registros que tengas, de esta manera al igual puedes guardar esta información en un PDF o si lo desean imprimir el documento."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tooltip": "Calculadora dinámica",
+            "imagen": "img/calculadora.jpg",
+            "programa": [
+              {
+                "titulo": "Calculadora dinámica en consola",
+                "texto": "La calculadora tiene como fin hacer operaciones básicas como sumas, restas, multiplicaciones y divisiones dinámicamente en consola, introduciendo así los números y símbolos para devolverte un resultado, al igual se puede poner paréntesis ().",
+                "nota": "Este proyecto aún no está terminado ya que no soporta más de un paréntesis.",
+                "descripciones": [
+                  {
+                    "imagen": "img/calculadora/inicio.png",
+                    "descripcion": "Cuando inicias el programa, te indica que tienes que ingresar la cadena (operación) a realizar, en la misma opción puedes indicar con la letra “L” para limpiar la consola cuando hay varias operaciones realizadas o la letra “S” para salir del sistema."
+                  },
+                  {
+                    "imagen": "img/calculadora/numeros.png",
+                    "descripcion": "Se pueden ingresar números y los operadores básicos de una calculadora como (suma, resta, multiplicación y división) = (+, - , *, /)."
+                  },
+                  {
+                    "imagen": "img/calculadora/resultado.png",
+                    "descripcion": "Después de ingresar los números, se hace un enter al teclado para hacer la operación y tener el resultado deseado, las operaciones también pueden llevar decimales."
+                  },
+                  {
+                    "imagen": "img/calculadora/larga.png",
+                    "descripcion": "En las operaciones, también se pueden agregar los paréntesis () para indicar si se desea hacer una operación dentro de ellos y seguirían las reglas matemáticas las cuales son hacer primero las operaciones dentro del paréntesis para luego terminar con el resto que no están dentro de ellas."
+                  },
+                  {
+                    "imagen": "img/calculadora/result_long.png",
+                    "descripcion": "Después de ingresar la cadena con los operadores y paréntesis, te arroga un solo resultado."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tooltip": "Juego Sudoku",
+            "imagen": "img/sudoku.jpg",
+            "programa": [
+              {
+                "titulo": "Juego Sudoku",
+                "texto": "El juego esta creado en modo consola la cual tiene un menú que se puede uno mover con las flechas del teclado y poder seleccionar las opciones. En el juego se pueden ver los puntajes de los usuarios que han jugado con anterioridad. Al igual podrás seleccionar la dificultad del juego.",
+                "nota": "En el juego se validan que no haya un mismo número en X o Y, también valida que no haya un mismo número dentro de los 9 cuadros que se dividen en todo el recuadro.",
+                "descripciones": [
+                  {
+                    "imagen": "img/sudoku/inicio.png",
+                    "descripcion": "Al momento de ejecutar el programa te aparece un menú donde podrás seleccionar con las teclas (flechas -> Arriba, Abajo) la opción deseada, podrás ver tu puntaje o iniciar el juego."
+                  },
+                  {
+                    "imagen": "img/sudoku/dificultad.png",
+                    "descripcion": "Si seleccionaste la opción “Jugar”, te llevara a otro menú donde podrás elegir la dificultad del juego, la dificultad se componen de la cantidad de números que se rellenaran en el juego."
+                  },
+                  {
+                    "imagen": "img/sudoku/nombre.png",
+                    "descripcion": "Una vez seleccionada la dificultad, ingresaras tu nombre para cuando acabe el juego te anote tu puntaje con los puntos que has hecho en el juego."
+                  },
+                  {
+                    "imagen": "img/sudoku/empezar.png",
+                    "descripcion": "Si ya ingresaste tu nombre y presionas enter, entras ya al juego donde veraz que ya hay números recargados y podrás comenzar con el juego."
+                  },
+                  {
+                    "imagen": "img/sudoku/coordenadas.png",
+                    "descripcion": "Para ingresar un cierto número en el juego deberás ingresar las coordenadas X, Y para saber la posición y colocar el número deseado."
+                  },
+                  {
+                    "imagen": "img/sudoku/resultado.png",
+                    "descripcion": "Una vez ingresada las coordenadas y el número, veraz el resultado en el cuadro de arriba y en automático se borra los registros que has ingresado para poder volver a ingresar otros."
+                  },
+                  {
+                    "imagen": "img/sudoku/cambiar.png",
+                    "descripcion": "Si deseas reemplazar un número del recuadro de arriba, tendrás que hacerlo del mismo modo como si agregaras un nuevo registro, ingresando las coordenadas, un número y automáticamente se cambiara el registro."
+                  },
+                  {
+                    "imagen": "img/sudoku/modificado.png",
+                    "descripcion": "Al haber puesto las mismas coordenadas con diferente número vemos el resultado cuando damos enter."
+                  },
+                  {
+                    "imagen": "img/sudoku/error.png",
+                    "descripcion": "En el juego se valida que no ingresen caracteres que no sean números."
+                  },
+                  {
+                    "imagen": "img/sudoku/score.png",
+                    "descripcion": "Una vez terminado el juego podrás ver tu resultado en el menú inicial, estos registros se guardan en un archivo de texto."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tooltip": "Descarga de imágenes por correo",
+            "imagen": "img/download.jpg",
+            "programa": [
+              {
+                "titulo": "Descarga de imágenes por correo",
+                "texto": "El sistema se desarrolló en consola con una sola función de poder descargar adjuntos con las extensiones especificadas de un archivo TXT, al igual cuando su procedimiento termine, el programa elimina el correo después de haber descargado los adjuntos. En el archivo TXT se puede configurar la cuenta de correo, revisar la bandeja de entrada cada cierto tiempo, poner la ruta donde se descargaran los archivos y poner la cantidad de cuantos correos se desean descargar.",
+                "nota": "",
+                "descripciones": [
+                  {
+                    "imagen": "img/descarga_img/download.png",
+                    "descripcion": "Cuando el programa es ejecutado empieza a conectarse al correo que se le indico en el archivo de configuración para después poder conectarse a su bandeja de entrada y checar si hay correos para poder descargar los adjuntos. Los adjuntos solo serán descargados con las extensiones que se especifican en la configuración."
+                  },
+                  {
+                    "imagen": "img/descarga_img/files.jpg",
+                    "descripcion": "Una vez descargado el adjunto es llevado a la ruta indicada en la configuración, después checa si ya no hay más correos para después eliminar el correo y seguir con el siguiente correo."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "JSON, XML",
+        "imagen": "img/json.png",
+        "descripcion": "La mayoría de toda la información que contiene esta página web esta por un archivo JSON.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "MySql, SQL",
+        "imagen": "img/db.png",
+        "descripcion": "MySQL y SQL son los dos gestores de datos que uso mayormente para mis aplicaciones.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "WinDev",
+        "imagen": "img/windev.png",
+        "descripcion": "Es un programa donde desarrolle todo tipo de software para PC, usando una tecnología llamado W la cual es el lenguaje de programación principal que usa WinDev.",
+        "titulo": "Proyectos realizados en WinDev",
+		    "sistemas": [
+          {
+            "tooltip": "Horo",
+            "imagen": "img/reloj2.jpg",
+            "programa": [
+              {
+                "titulo": "Reloj checador",
+                "texto": "El sistema fue creado para llevar el control de los horarios de cada empleado, el sistema es multi-empresa eso quiere decir que pueden estar varias empresas en el programa y manejarlos en base a sus departamentos. El sistema lleva varias funciones tales como: vacaciones, permisos, horas extras, días inhábiles, etc.",
+                "nota": "Sistema creado por la empresa Desarrollo Innovador de Sistemas",
+                "descripciones": [
+                  {
+                    "imagen": "img/otros/reloj.jpg",
+                    "descripcion": "El módulo de mensajes sirve para poder agregar, modificar e eliminar mensajes que aparecerán cuando el usuario se registra, se pueden personalizar por fechas, por tipo de registro (En qué momento aparecen) o por mensajes que siempre aparecerán cuando el usuario registra su entrada, salida, etc."
+                  },
+                  {
+                    "imagen": "img/otros/reloj.jpg",
+                    "descripcion": "El módulo de días inhábiles sirve para administrar los días que no labora un trabajador, así también para evitar al empleado registrarse y no afecte a su reporte."
+                  },
+                  {
+                    "imagen": "img/otros/reloj.jpg",
+                    "descripcion": "El módulo de horas extras sirve para administrar las horas extras tanto de entrada como de salida al usuario."
+                  },
+                  {
+                    "imagen": "img/otros/reloj.jpg",
+                    "descripcion": "El usuario tiene acceso a un módulo donde puede administrar sus vacaciones, permisos y justificaciones, de esa manera el administrador puede contralar todos esos datos en menú del administrador."
+                  },
+                  {
+                    "imagen": "img/otros/reloj.jpg",
+                    "descripcion": "El módulo de nómina sirve para hacer las nóminas de todos los usuarios para cada empresa con un solo click, así ayudando al administrador hacer este proceso más rápido y sencillo."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "WebDev",
+        "imagen": "img/webdev.png",
+        "descripcion": "WebDev es un programa de la familia de WinDev, este sistema desarrolla páginas web dinámicamente, todo lo que se desarrolla en PHP, .NET, JSP, etc.",
+		    "sistemas": []
+      }
+    ]
+  }
+ ]
