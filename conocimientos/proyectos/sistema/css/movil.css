@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.superior {
+    background-color: #424243;
+    width: 100%;
+    height: 130px;
+    margin: 0;
+}
+
+.cuadro-superior {
+    width: 150px;
+    height: 130px;
+    margin: auto;
+    
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    margin-top: -20px;
+    margin-left: -50px;
+}
+
+.tittle {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Menu */
+
+ul {
+    display: none;
+}
+
+/* Cuerpo */
+
+.cuerpo {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.cubo {
+    max-width: 310px;
+    line-height: normal;
+    border: 3px solid #e6e3e3;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.text-principal {
+    margin-left: 40px;
+    margin-right: 40px;
+    /*font-family: sans-serif;*/
+    font-weight: bold;
+    margin-bottom: -200px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.separa {
+    height: 50px;
+}
+
+.separa2 {
+    height: 50px;
+}
+
+
+.filaA {
+    width: 100%;
+    height: auto;
+    margin-top: 250px;
+}
+
+.filaA img {
+    width: 200px;
+    height: 200px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.text-principal {
+    margin-left: 10px;
+    margin-right: 10px;
+    /*font-family: sans-serif;*/
+    font-weight: bold;
+}
+
+.filaA p {
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.filaB {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    
+}
+
+.filaB img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.filaB p {
+    padding-left: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.cuadro-nota {
+    border: 1px solid #acacac;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.75);
+}
+
+.nota {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    color: #004884;
+    /*font-family: arial;*/
+    border-left: 16px solid #faf8b4;
+    padding-left: 15px;
+}
+
+/*Pie de pagina*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #363434; 
+    margin-top: 30px;
+}
+
+.pie {
+    max-width: 300px;
+    height: 100px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin: auto;
+    text-align: center;
+}
+
+.texto-pie {
+    color: #FFF;
+    padding-top: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
