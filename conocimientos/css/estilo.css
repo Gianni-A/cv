@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    background-color: #E5E5E5;
+    min-width: 1200px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.mayor {
+    width: 100%;
+}
+.clear
+{
+  clear:both;
+}
+
+.superior {
+    background-color: #424243;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    p
+}
+
+.cuadro-superior {
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    float: left;
+    margin-top: -10px;
+	margin-left:150px;
+}
+
+.principal-text {
+    float: left;
+    color: white;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-weight: bold;
+    /*font-family: sans-serif;*/
+}
+
+#close_conocimiento{
+    margin-left: 190px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+#close_conocimiento:hover{
+    color: #84deff;
+    cursor: pointer;
+}
+
+.cuadro-menu {
+    width: 100%;
+    height: 50px;
+    background-color: #c4ddbb;
+    margin-top: -16px;
+    /*padding-left: 20px;*/
+}
+
+.link-contact{
+    display: none;
+}
+
+.menu {
+    width: 800px;
+    height: 50px;
+    margin: auto;
+    padding-left: 150px;
+}
+
+.menu nav ul li {
+    float: left;
+    margin-top: 10px;
+    margin-left:  20px;
+    cursor: pointer;
+    padding-right: 20px;
+    text-decoration: none;
+    list-style-type: none;
+	  font-weight: bold;
+    z
+}
+
+.bordito {
+    border-right: 1px solid #FFF;
+}
+
+.bordito1 {
+    color: black;
+    border-right: 1px solid #FFF;
+}
+
+#inicio{
+    transition: 0.5s;
+}
+
+#inicio:hover{
+    color: #8598a0;
+    transition: 0.5s;
+}
+
+#experiencia{
+    transition: 0.5s;
+}
+
+#experiencia:hover{
+    color: #fcd293;
+    transition: 0.5s;
+}
+
+#materias{
+    transition: 0.5s;
+}
+
+#materias:hover{
+    color: #71bcb3;
+    transition: 0.5s;
+}
+
+#contacto{
+    transition: 0.5s;
+}
+
+#contacto:hover{
+    color: #eb6924;
+    transition: 0.5s;
+}
+
+a {
+    color: #FFF;
+}
+
+.menu nav ul li:hover {
+    color: black;
+}
+
+.cuerpo {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cuadro {
+    width: 1180px;
+    height: auto;
+    border-radius: 8px;
+    margin: auto;
+    background-color: #FFF;
+}
+
+.titulo {
+    text-align: center;
+    color: #959393;
+    border-bottom: 1px solid #d0d0d0;
+    background-color: #F5F5F5;
+    margin: 0;
+    height: 70px;
+    padding: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.columnas {
+    border: 1px dashed #bcbcbc;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    float: left;
+    margin: 45px;
+    padding-top: 20px;
+}
+
+.columnas img {
+    /*width: 200px;
+    height: 100px;*/
+    margin-top: 30px;
+}
+
+.AddHover {
+   transition: 0.5s;
+}
+
+.AddHover:hover {
+    box-shadow: 10px 10px 5px #888888;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+h2 {
+    color: #77D6A9;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.texto {
+    padding: 10px;
+    color: #848484;
+    font-size: 17px;
+}
+
+
+
+
+/*Desde aqui empieza lo que es el pie de pagina*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #363434;
+}
+
+.pie {
+    width: 1000px;
+    height: 100px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin: auto;
+    text-align: center;
+}
+
+.texto-pie {
+    color: #FFF;
+    padding-top: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
