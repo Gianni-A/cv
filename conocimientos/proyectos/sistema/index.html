@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--<title>Conocimientos y experiencias en PHP</title>-->
+<div id="titulo_pag"></div>
+<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen and (max-width:6400px) and (min-width:820px)"/>
+<link rel="stylesheet" type="text/css" href="css/tablet.css" media="screen and (max-width:820px) and (min-width:620px)"/>
+<link rel="stylesheet" type="text/css" href="css/movil.css" media="screen and (max-width:620px) and (min-width:1px)"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<script src="../../../menu/js/jquery.min.js"></script>
+<script src="../../../menu/js/skel.min.js"></script>
+<script src="../../../menu/js/skel-layers.min.js"></script>
+<script src="js/init.js"></script>
+<script type="text/javascript" src="../../../js/funciones.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    var x = document.getElementsByClassName("link depth-0");
+    if ($(window).width() <= 620){
+        x[4].style.display = "none";
+    }
+
+    $(window).resize(function(e) {
+    x[4].style.display = "none";
+    });
+});
+</script>
+</head>
+<body>
+    <div class="superior">
+        <div class="cuadro-superior">
+        <img src="../../../img/logo.png" class="logo">
+
+        <!--<p class="tittle">Proyectos acerca de PHP</p>-->
+        <div id="titulo"></div>
+      </div>
+    </div>
+
+    <div class="cuadro-menu">
+    <div class="clear"></div>
+      <div class="menu">
+        <nav id="nav">
+            <ul>
+                <a href="../../../menu/"><li class="bordito">Inicio</li></a>
+                <a href="../../../conocimientos/"><li class="bordito">Conocimientos</li></a>
+                <a href="../../../experiencia/"><li class="bordito">Experiencia</li></a>
+                <a href="../../../menu/material/"><li>Certificaciones</li></a>
+
+            </ul>
+        </nav>
+       </div>
+    </div>
+
+	<script>
+        loadJSON("../../../informacion.json", function (response) {
+            var datos = JSON.parse(response);
+            var cadena = "";
+            var imagen;
+            var descripcion;
+            var filas = true;
+            var id = localStorage.lenguage;
+            var idHijo = localStorage.sistema;
+            var nombreLang = "<p class='tittle'>Proyectos acerca de "+datos[2].lenguages[id].nombre+"</p>";
+            var tituloPag = "<title>Conocimientos y experiencias en "+datos[2].lenguages[id].nombre+"</title>";
+            var longitud = datos[2].lenguages[id].sistemas[idHijo].programa[0].descripciones.length - 1;
+
+            var nota = datos[2].lenguages[id].sistemas[idHijo].programa[0].nota;
+            cadena += "<h1>"+datos[2].lenguages[id].sistemas[idHijo].programa[0].titulo+"</h1>";
+            cadena += "<p class='text-principal'>"+datos[2].lenguages[id].sistemas[idHijo].programa[0].texto+"</p>";
+            for(var i=0; i<=longitud; i++){
+                imagen = datos[2].lenguages[id].sistemas[idHijo].programa[0].descripciones[i].imagen;
+                descripcion = datos[2].lenguages[id].sistemas[idHijo].programa[0].descripciones[i].descripcion;
+                if (filas == true){
+                    cadena += "<div class='filaA'><img src='"+imagen+"'><p class='text1'>"+descripcion+"</p></div>";
+                    filas = false;
+                }
+                else{
+                    cadena += "<div class='filaB'><img src='"+imagen+"'><p class='text2'>"+descripcion+"</p></div>";
+                    filas = true;
+                }
+                //cadena += "<div class='separa2'></div>";
+            }
+            if (nota != ""){
+                cadena += "<div class='cuadro-nota'><p class='nota'><strong>Nota</strong>: "+nota+"</p></div>";
+            }
+            document.getElementById("resultado").innerHTML = cadena;
+            document.getElementById("titulo").innerHTML = nombreLang;
+            document.getElementById("titulo_pag").innerHTML = tituloPag;
+        });
+	</script>
+
+    <div class="cuerpo">
+        <div class="cubo">
+			       <div id="resultado"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="pie">
+            <p class="texto-pie">¡Gracias por su visita!</p>
+        </div>
+    </footer>
+</body>
+</html>
