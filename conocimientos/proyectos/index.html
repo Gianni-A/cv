@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--<title>Proyectos en PHP</title>-->
+<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen and (max-width:6400px) and (min-width:720px)" />
+<link rel="stylesheet" type="text/css" href="css/tablet.css" media="screen and (max-width:720px) and (min-width:470px)" />
+<link rel="stylesheet" type="text/css" href="css/movil.css" media="screen and (max-width:470px) and (min-width:1px)" />
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<script src="../../menu/js/skel.min.js"></script>
+<script src="../../menu/js/jquery.min.js"></script>
+<script src="../../menu/js/skel-layers.min.js"></script>
+<script src="js/init.js"></script>
+<script type="text/javascript" src="../../js/funciones.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    var x = document.getElementsByClassName("link depth-0");
+    if ($(window).width() <= 720){
+        x[4].style.display = "none";
+    }
+
+    $(window).resize(function(e) {
+    x[4].style.display = "none";
+    });
+});
+
+</script>
+
+<script>
+    function registra(id){
+        localStorage.setItem("sistema",id);
+    }
+    loadJSON("../../informacion.json", function (response) {
+        var datos = JSON.parse(response);
+        var cadena = "";
+        var id = localStorage.lenguage;
+        var titulo = "<p class='tittle'>Proyectos acerca de "+datos[2].lenguages[id].nombre+"</p>";
+        var longitud = datos[2].lenguages[id].sistemas.length - 1;
+        var programas = 0;
+        cadena += "<title>Proyectos en "+datos[2].lenguages[id].nombre+"</title>";
+        cadena += "<h1 class='titulo_cuadro'>"+datos[2].lenguages[id].titulo+"</h1>";
+        for(var i=0; i<=longitud; i++){
+            cadena += "<div class='contenedor' title='"+datos[2].lenguages[id].sistemas[i].tooltip+"'><a href='sistema/' onclick='registra("+i+")'><img src='"+datos[2].lenguages[id].sistemas[i].imagen+"'></a></div>";
+        }
+
+        document.getElementById("resultado").innerHTML = cadena;
+        document.getElementById("titulo").innerHTML = titulo;
+
+    });
+</script>
+</head>
+<body>
+    <div class="mayor">
+        <div class="superior">
+            <div class="cuadro-superior">
+                <img src="../../img/logo.png" class="logo">
+                <div id="titulo"></div>
+            </div>
+        </div>
+
+        <div class="cuadro-menu">
+        <div class="clear"></div>
+            <div class="menu">
+                <nav id="nav">
+                    <ul>
+                        <a href="../../menu/"><li class="bordito">Inicio</li></a>
+                        <a href="../"><li class="bordito">Conocimientos</li></a>
+                        <a href="../../experiencia/"><li class="bordito">Experiencia</li></a>
+                        <a href="../../menu/material/"><li>Certificaciones</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="cuerpo">
+            <div class="cuadro">
+                <div id="resultado"></div>
+				        <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="pie">
+            <p class="texto-pie">¡Gracias por su visita!</p>
+        </div>
+    </footer>
+</body>
+</html>
