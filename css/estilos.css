@@ -1,0 +1,123 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.cuadro {
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+	position:relative;
+}
+
+.columna1 {
+    
+    width: 400px;
+    float: left;
+    margin: 150px 0 0 100px;
+    
+}
+
+.logo {
+    width: 250px;
+    height: 110px;
+}
+
+.texto {
+    color: #FFF;
+    font-family: serif;
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+.columna2 {
+    width: 100px;
+    float: left;
+    margin: 150px 0 0 100px;
+}
+
+
+
+
+.sub-cuadro {
+    border: 1px solid #c9ced0;
+    border-radius: 5px;
+    width: 300px;
+    height: 130px;
+    margin-top: 75px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow:
+    0 2px 2px rgba(0,0,0,0.2),        
+    0 1px 5px rgba(0,0,0,0.2),        
+    0 0 0 12px rgba(255,255,255,0.4);
+    
+}
+
+.titulo-sesion {
+    color: #ada8a8;
+    font-family: sans-serif;
+    width: 260px;
+    font-style: normal;
+    display: inline-block;
+    border-bottom: 2px solid #adadad;
+	font-size:25px;
+	margin-top:10px;
+    margin-bottom: 28px;
+	font-weight:bold
+}
+
+.usu{
+    margin-top: 20px;
+    border-radius: 3px;
+    width: 250px;
+    height: 25px;
+    color: #000;
+    letter-spacing : 1px;
+    box-shadow: 0px 0px 0.5px rgba(0, 0, 0, 0.38), 0px 0px 1px;
+    border: medium none;
+    background: none repeat scroll 0% 0% #f7f7f7;
+    padding-left: 5px;
+   
+}
+
+
+input::-webkit-input-placeholder{
+    color: #6687c1;
+}
+
+
+
+.pass{
+    
+    margin: auto;
+    border-radius: 2px;
+    width: 170px;
+    height: 25px;
+    letter-spacing : 1px;
+    color: #000;
+    box-shadow: 0px 0px 0.5px rgba(0, 0, 0, 0.38), 0px 0px 1px;
+    border: medium none;
+    background: none repeat scroll 0% 0% #f7f7f7;
+    padding-left: 5px;
+}
+
+
+.boton {
+    box-shadow: none;
+    background-image: linear-gradient(#E63D45, #C11A22);
+    border: 1px solid #7b272a;
+    background-color: #AB171E;
+    color: #FFF;
+    text-shadow: 0px -1px rgba(0, 0, 0, 0.11);
+    height: 30px;
+    font-size: 22px;
+    padding:10px 50px;
+	width:150px;
+    font-weight: bold;
+    white-space: nowrap;
+    outline: medium none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
