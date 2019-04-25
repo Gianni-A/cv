@@ -105,6 +105,11 @@ loadJSON(file_language, function (response) {
     const m_experiencia = document.getElementById("experiencia");
     const m_certificados = document.getElementById("materias");
 
+    const m_inicio_movil = document.getElementsByClassName("link depth-0")[0];
+    const m_conocimientos_movil = document.getElementsByClassName("link depth-0")[1];
+    const m_experiencia_movil = document.getElementsByClassName("link depth-0")[2];
+    const m_certificados_movil = document.getElementsByClassName("link depth-0")[3];
+
     const title_profile = document.getElementById("title_profile");
     const description = document.getElementById("description");
     const title_courses = document.getElementById("title_courses");
@@ -127,6 +132,13 @@ loadJSON(file_language, function (response) {
     m_conocimientos.innerHTML = menu_conocimientos_json;
     m_experiencia.innerHTML = menu_experiencia_json;
     m_certificados.innerHTML = menu_certificados_json;
+    if(typeof m_inicio_movil !== 'undefined') {
+      m_inicio_movil.innerHTML = menu_inicio_json;
+      m_conocimientos_movil.innerHTML = menu_conocimientos_json;
+      m_experiencia_movil.innerHTML = menu_experiencia_json;
+      m_certificados_movil.innerHTML = menu_certificados_json;
+    }
+
     title_profile.innerHTML = title_perfil_json;
     description.innerHTML = sustituye;
     title_courses.innerHTML = title_curso_json;
