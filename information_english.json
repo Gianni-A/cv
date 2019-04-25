@@ -1,0 +1,540 @@
+﻿[
+  {
+    "modulo": "certificados",
+    "title": "Certificates",
+    "cursos":[
+      {
+        "titulo": "PHP con Laravel",
+        "texto": "Approved course of PHP with Laravel.",
+        "url": "laravel.pdf"
+      },
+      {
+        "titulo": "HTML5, CSS",
+        "texto": "Approved course of HTML5 with CSS3 to create websites.",
+        "url": "html5.pdf"
+      },
+      {
+        "titulo": "Responsive Design",
+        "texto": "Approved course about responsive design to adjust the size of the website for mobile and desktop display.",
+        "url": "responsive.pdf"
+      }
+    ]
+  },
+  {
+    "modulo": "experiencia",
+    "title": "Experience",
+    "proyectos": [
+      {
+        "titulo": "STX",
+        "imagen": "img/stx.png",
+        "descripcion": "I have been working at STX for 1 year and 3 months, at the first time I was working as a backend developer in php, then I changed my environment work as a Android developer, making apps in Java or Kotlin languages. I have been working with android for 1 year creating apps like tools for people who are on the street selling products and needed an app to help them to do some task like selling credit to have internet or transfer some data to another user, creating users, making reports of the sales, managing location, camera, Scanner, etc.",
+        "empresa": "STX",
+        "website": "http://www.stx.com.mx/",
+        "imagen_empresa": "img/logo_empresa/stx.png",
+        "descripcion_empresa": "STX is a company that develops software for web and mobile applications. They also have platforms that they work under the concept of SaaS (Software as a Service) and also other platforms such as ERPs, payment of services such as water, electricity, telephone, electronic reload transactions, etc."
+      },
+      {
+        "titulo": "Desarrollo Innovador de Sistemas",
+        "imagen": "img/dis.png",
+        "descripcion": "I worked in Desarrollo Innovador de Sistemas, I develop many softwares about web and desktop. I have 2 years of experience to develop, analyze and build softwarein Windev.",
+        "empresa": "DISXII",
+        "website": "http://www.disxii.com/",
+        "imagen_empresa": "img/disxii2.png",
+        "descripcion_empresa": "Desarrollo de soluciones de software: Dedicated of Invoice and other electronic documents. Reception and validation of Electronic Billing. Virtual Files, WorkFlow, etc. Specialized in websites Interfaces between ERP solutions, CRM, HelpDesk, etc. Information systems projects on mobile devices. (Android) Telecommunications: Computer equipment and maintenance."
+      },
+      {
+        "titulo": "Electronic reloading (Telcel, Movistar, Nextel, etc)",
+        "imagen": "img/recargatodo.jpg",
+        "descripcion": "I worked at Tridex Evolution as a telephony communications, technical support services, system maintenance, module development in .NET, PHP and customer service.",
+        "empresa": "Tridex Evolution",
+        "website": "http://goo.gl/67XKem",
+        "imagen_empresa": "img/logo_empresa/recargas.jpg",
+        "descripcion_empresa": "RecargaTodo is a company dedicated to the sale and distribution of Electronic Air Time (TAE) through the Internet and apps to the entire Mexican Republic. They offer personalized advice with absolute seriousness, respect, efficiency and innovation to the client. They have more than 20 years in the market, in addition to having the best systems in the market for the sale and distribution of TAE nationwide."
+      },
+      {
+        "titulo": "Inventory System",
+        "imagen": "img/mcbravos.jpg",
+        "descripcion": "A system of inventory of things about computer I was developed on web, the system can add update and delete data, also can make Check-in and Check-out data by the user. It was created in PHP, HTML, CSS, Javascript and MySQL.",
+        "empresa": "McBravos",
+        "website": "http://www.mcbravos.com",
+        "imagen_empresa": "img/logo_empresa/istrid.jpg",
+        "descripcion_empresa": "Located in the city of Cancun, Mexico, they are dedicated to the Creation and execution of Internet Marketing Strategies, through the use of avant-garde resources and innovation. McBravos develops and implements digital strategies to increase the promotion and consequently the sales of its customers. The values are summarized in 7 points: Commitment, Attitude, Excellence, Innovation, Equipment, Balance and Systems."
+      },
+      {
+        "titulo": "System for Excel files",
+        "imagen": "img/guiaga.jpg",
+        "descripcion": "I developed a system that takes control of the files excel both to save them in a database and to show the results that have in excel of the program, this system can export and import files excel can be add Modify and Delete data in files withthe system. The system was made in C# and its Database Manager was MySQL.",
+        "empresa": "Corporativo Canto Viana y Asociados",
+        "website": "http://www.corporativocantoviana.com/",
+        "imagen_empresa": "img/logo_empresa/canto.jpg",
+        "descripcion_empresa": "It is a company that deals with areas such as: administration, collection and litigation. It has supported both the necessary infrastructure and a good methodology allowing effective collection strategies, which translate into immediate results avoiding harm to the integrity of users and keeping the image of their customers healthy. They have more than 8 years of experience in managing the recovery of overdue portfolios of their clients, which are leaders in the market. This recovery is carried out through both out-of-court and judicial means. They have also focused on increasing the profits of your customers with a high level of service."
+      },
+      {
+        "titulo": "AdminFactura",
+        "imagen": "img/admin.jpg",
+        "descripcion": "I developed componentsfor an Electronic Billing system, this system was created on web with their respective languages: PHP, MVC, HTML, CSS, JQuery and MySQL. Its functions are to give add, update and delete records that are in the database. The componentswere made in the city of Puebla by the company Mangoo Software, dedicated to the development of software with intelligent solutions.",
+        "empresa": "Mangoo Software",
+        "website": "http://mangoo.mx/",
+        "imagen_empresa": "img/logo_empresa/mangoo.jpg",
+        "descripcion_empresa": "Mangoo Software is a group of professionals in Information Technology, design and marketing committed to customer satisfaction. Analyze the needs of customers whatever their size and offer smart solutions through the use and development of technological tools to improve their business processes. The company provides intelligent, effective and profitable solutions for the execution of business operations through a personalized service through the analysis of the opportunities, needs and specific conditions of each client, highlighting quality, efficiency and professionalism in each and every one of them, their products, developments and solutions."
+      }
+    ]
+  },
+  {
+    "modulo": "Conocimiento",
+    "title": "Projects and knowledge",
+    "lenguages": [
+      {
+        "nombre": "PHP",
+        "imagen": "img/php.jpg",
+        "descripcion": "PHP is the first language with the most knowledge and experience I have in workplace.",
+        "titulo": "Projects made in PHP",
+        "sistemas": [
+          {
+            "tooltip": "Managing hours' employees",
+            "imagen": "img/horarios.jpg",
+            "programa": [
+              {
+                "titulo": "Employees' hours System",
+                "texto": "The schedule system was developed in order to improve the processes that took place within the University in question of shifts, which are presented with flaws and bad organizations at the time of assigning schedules and activities for each user.",
+                "nota": "This project was made thanks to other classmates which was presented to the audit and then they can use the system.",
+                "descripciones": [
+                  {
+                    "imagen": "img/horarios/inicio.jpg",
+                    "descripcion": "In the main window that you get when opening the application is your login, which requires a user and password to enter the system, the login handles different types of users for each process."
+                  },
+                  {
+                    "imagen": "img/horarios/menu.jpg",
+                    "descripcion": "Once entering the system, you get a menu with multiple options where you can perform the activities that are already assigned for each type of user. These activities were defined by the university."
+                  },
+                  {
+                    "imagen": "img/horarios/ventanas.jpg",
+                    "descripcion": "In most of the windows, it performs actions to add, modify or delete certain data required by users."
+                  },
+                  {
+                    "imagen": "img/horarios/espacios.jpg",
+                    "descripcion": "There is a module where you can modify the design of the area throughout the University, in turn each table shows a small information where you can get a short summary of that room or classroom."
+                  },
+                  {
+                    "imagen": "img/horarios/reporte.jpg",
+                    "descripcion": "In the reports module you can generate in PDF format the information stored in the BD that exists in records for the control of schedules either for each teacher, students or school staff."
+                  },
+                  {
+                    "imagen": "img/horarios/configuracion.jpg",
+                    "descripcion": "The configuration module helps you to modify certain policies that may or may not be established by the University."
+                  },
+                  {
+                    "imagen": "img/horarios/usuarios.jpg",
+                    "descripcion": "Users can be managed to indicate to each one what kind of user he/she is and what processes he/she can perform."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tooltip": "Product warehouse",
+            "imagen": "img/almacen.jpg",
+            "programa": [
+              {
+                "titulo": "Store of registered products",
+                "texto": "The warehouse system was made in order to solve a company's problem regarding the inventory of its computer products.",
+                "nota": "This project was carried out by some practices that I took while I was studying at the university.",
+                "descripciones": [
+                  {
+                    "imagen": "img/almacen/login.jpg",
+                    "descripcion": "The first page of this system shows what is a form where you can put your data and then enter to the system."
+                  },
+                  {
+                    "imagen": "img/almacen/registro_usuario.jpg",
+                    "descripcion": "On another page within the system is the form to register users and thus in order to enter the system, this page of records can only be seen by the administrator."
+                  },
+                  {
+                    "imagen": "img/almacen/registro_producto.jpg",
+                    "descripcion": "In the system menu there are several options where you can add, delete or modify the data."
+                  },
+                  {
+                    "imagen": "img/almacen/entregas.jpg",
+                    "descripcion": "In the menu there are several options where you can see a form with their respective records."
+                  },
+                  {
+                    "imagen": "img/almacen/general.jpg",
+                    "descripcion": "Likewise, within the options that users obtain, there is a module where they can visualize all the registered products and with their respective real quantities, they change their number depending on the entrances and exits that they have had."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tooltip": "Authorization of requests",
+            "imagen": "img/solicitud.jpg",
+            "programa": [{
+                "titulo": "Authorization of requests",
+                "texto": "The authorization's portal was created for internal matters by DisXII company.",
+                "nota": "",
+                "descripciones": [
+                  {
+                    "imagen": "img/otros/correct.png",
+                    "descripcion": "In the system there are two functions that allow the user to authorize requests, one of which is to authorize the request that the user has requested, in this way when the event is activated, an email is sent to the requester and other processes are generated."
+                  },
+                  {
+                    "imagen": "img/otros/incorrect.jpg",
+                    "descripcion": "The second function of the portal is to reject the request that the user has requested, in this way when the request is rejected, an email is sent to the applicant that his/her request has been rejected."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tooltip": "Accounting's system",
+            "imagen": "img/contabilidad.jpg",
+            "programa": [{
+                "titulo": "Accounting's system",
+                "texto": "Portal that serves companies to take electronic accounting through a web portal.",
+                "nota": "System created by the company Desarrollo Innovador de Sistemas.",
+                "descripciones": [
+                  {
+                    "imagen": "img/otros/contable.jpg",
+                    "descripcion": "In the portal there is a window where the user will have to enter their data to enter the system. (Log in)"
+                  },
+                  {
+                    "imagen": "img/otros/contable.jpg",
+                    "descripcion": "When you get in the system there is a menu at the top and a container in the central part to manage the data."
+                  },
+                  {
+                    "imagen": "img/otros/contable.jpg",
+                    "descripcion": "In the portal you can add, modify or delete: Policies, Balances, Catalogs, etc."
+                  },
+                  {
+                    "imagen": "img/otros/contable.jpg",
+                    "descripcion": "You can visualize the data in an XML generated by the system and if you want to download it, it is compressed in a Zip to be downloaded later."
+                  },
+                  {
+                    "imagen": "img/otros/contable.jpg",
+                    "descripcion": "It has tools that facilitate the search of the records and can be modified."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Laravel",
+        "imagen": "img/laravel.png",
+        "descripcion": "Knowledge in Laravel framework.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "HTML, HTML5",
+        "imagen": "img/html.png",
+        "descripcion": "Knowledge and experience of HTML5 70%.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "CSS, CSS3",
+        "imagen": "img/css.png",
+        "descripcion": "Knowledge and experience of CSS3 65%.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Bootstrap",
+        "imagen": "img/bootstrap.png",
+        "descripcion": "Knowledge in Bootstrap framework.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Git - Github",
+        "imagen": "img/github.png",
+        "descripcion": "Knowledge and experience on Git platform for version control.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Web Responsive Design",
+        "imagen": "img/WRD.jpg",
+        "descripcion": "Responsive Design is one of the technologies that I have basic-intermediate knowledge to make web pages from desktop to mobile mode.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Webpack",
+        "imagen": "img/webpack.png",
+        "descripcion": "Knowledge in webpack package manager.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Javascript",
+        "imagen": "img/javascript.png",
+        "descripcion": "I use Javascript as a basic experience which helps me to perform some interactions for the user within the HTML.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "JQuery",
+        "imagen": "img/jquery.png",
+        "descripcion": "Jquery is a powerful Javascript library which helps me streamline and / or optimize user processes.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "React JS",
+        "imagen": "img/reactjs.png",
+        "descripcion": "React JS is a library that helps the creation of web pages under the concept of WebComponents.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "MVC",
+        "imagen": "img/mvc.jpg",
+        "descripcion": "It is a model that you use in a project called 'AdminFactura'. This model was used to organize the project and its maintenance will easier.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Java",
+        "imagen": "img/java.png",
+        "descripcion": "Java is one of the technologies that I used to develop a CHAT system with sockets.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Android",
+        "imagen": "img/android.png",
+        "descripcion": "Development in Android with java (Native) which I can develop Apps with SQLite database.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "C#",
+        "imagen": "img/C_Sharp.png",
+        "descripcion": "C # a programming language where I develop applications in console and Windows forms like a calculator, a game, etc.",
+        "titulo": "Projects made in C#",
+        "sistemas": [
+          {
+            "tooltip": "Inventory system",
+            "imagen": "img/zoologico.jpg",
+            "programa": [
+              {
+                "titulo": "Inventory of a zoo",
+                "texto": "The program has some tools that takes control of all records within a zoo, in the system you can add, download and modify data.",
+                "nota": "Project created in the school, everything is about Windows forms.",
+                "descripciones": [
+                  {
+                    "imagen": "img/zoologico/progressbar.jpg",
+                    "descripcion": "When the system starts, a window appears indicating that the program is loading and it helps the user to know that the system is loading the files."
+                  },
+                  {
+                    "imagen": "img/zoologico/iniciosesion.jpg",
+                    "descripcion": "Once the program load is finished, a box appears where you can enter your session data in order to enter the system."
+                  },
+                  {
+                    "imagen": "img/zoologico/registroUsuario.jpg",
+                    "descripcion": "If you are not registered you will not be able to enter the system, however there is a window that you registered in the system and then be able to enter the system."
+                  },
+                  {
+                    "imagen": "img/zoologico/menu.jpg",
+                    "descripcion": "If your username and password are correct, it will appear a menu where there are several options that will help you perform these operations."
+                  },
+                  {
+                    "imagen": "img/zoologico/menu%20archivo.jpg",
+                    "descripcion": "Getting the menu at the top of the window there are more options to perform different tasks or go to different windows of the system such as help, reports, exit the system or perform basic administration tasks."
+                  },
+                  {
+                    "imagen": "img/zoologico/agregar.jpg",
+                    "descripcion": "One of the basic tasks of administration is to be able to add in this case to an animal registry that arrives at the zoo, in such a way it is registered to have more success a control of how many animals for each type there is in the zoo."
+                  },
+                  {
+                    "imagen": "img/zoologico/eliminar.jpg",
+                    "descripcion": "In the same way you can delete records either by any situation that occurs, to delete a data with only two steps you can delete records."
+                  },
+                  {
+                    "imagen": "img/zoologico/buscar.jpg",
+                    "descripcion": "If you want to find information about a certain animal, there is a window where you can check your information."
+                  },
+                  {
+                    "imagen": "img/zoologico/validacion.jpg",
+                    "descripcion": "For the user there are validations that prevent activities that cause some type of error and so the program continues to work."
+                  },
+                  {
+                    "imagen": "img/zoologico/reportes.jpg",
+                    "descripcion": "At the end of everything there is an option where you can make your reports of all the records you have, in this way you can save this information in a PDF or if you want to print the document."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tooltip": "Dynamic calculator",
+            "imagen": "img/calculadora.jpg",
+            "programa": [
+              {
+                "titulo": "Dynamic calculator in console",
+                "texto": "The calculator has the purpose of doing basic operations such as adding, subtracting, multiplying and dividing dynamically in the console, thus introducing the numbers and symbols to return a result, as well as parentheses ().",
+                "nota": "This project is not finished yet since it does not support more than one parenthesis. The next version will appear with this function.",
+                "descripciones": [
+                  {
+                    "imagen": "img/calculadora/inicio.png",
+                    "descripcion": "When you start the program, it tells you that you have to enter a string to perform, in the same option you can indicate with the letter 'L' to clean the console when there are several operations performed or the letter 'S' to exit the system."
+                  },
+                  {
+                    "imagen": "img/calculadora/numeros.png",
+                    "descripcion": "You can enter numbers and the basic operators of a calculator such as (addition, subtraction, multiplication and division) = (+, -, *, /)."
+                  },
+                  {
+                    "imagen": "img/calculadora/resultado.png",
+                    "descripcion": "After entering the numbers, an enter the keyboard to do the operation and then have the desired result, operations can also carry decimals."
+                  },
+                  {
+                    "imagen": "img/calculadora/larga.png",
+                    "descripcion": "In the operations, you can also add the parentheses () to indicate if you want to do an operation inside them and follow the mathematical rules which are to do the operations inside the parentheses first and then finish with the rest that are not inside them ."
+                  },
+                  {
+                    "imagen": "img/calculadora/result_long.png",
+                    "descripcion": "After entering the string with the operators and parentheses, you get a single result."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tooltip": "Sudoku game",
+            "imagen": "img/sudoku.jpg",
+            "programa": [
+              {
+                "titulo": "Sudoku game",
+                "texto": "The game is created in console mode which has a menu that can be moved with the arrow keys and to select the options. Also you can see the scores of users who have played previously and you can select the difficulty of the game.",
+                "nota": "The game has some validation that there is not a same number in X or Y, it also validates that there is not a same number within the 9 frames that are divided in the whole box.",
+                "descripciones": [
+                  {
+                    "imagen": "img/sudoku/inicio.png",
+                    "descripcion": "At the moment of executing the program, a menu appears where you can select with the keys (arrows -> Up, Down) the desired option, you can see your score or start the game."
+                  },
+                  {
+                    "imagen": "img/sudoku/dificultad.png",
+                    "descripcion": "If you select the option 'Play', it will take you to another menu where you can choose the difficulty of the game, the difficulty is made up the numbers that will be filled in the game."
+                  },
+                  {
+                    "imagen": "img/sudoku/nombre.png",
+                    "descripcion": "Once the difficulty is selected, you will enter your name so that when the game is over, you will write down your score with the points you have made in the game."
+                  },
+                  {
+                    "imagen": "img/sudoku/empezar.png",
+                    "descripcion": "If you have already entered your name and press enter, you already enter the game where you can see that there are already reloaded numbers and you can start with the game."
+                  },
+                  {
+                    "imagen": "img/sudoku/coordenadas.png",
+                    "descripcion": "To enter a certain number in the game you must enter the coordinates X, Y to know the position and place the desired number."
+                  },
+                  {
+                    "imagen": "img/sudoku/resultado.png",
+                    "descripcion": "Once put the coordinates and the number, you will see the result in the box above and automatically delete the records you have entered to re-enter others."
+                  },
+                  {
+                    "imagen": "img/sudoku/cambiar.png",
+                    "descripcion": "If you want to replace a number from the box above, you will have to do it in the same way as if you added a new record, entering the coordinates, a number and the record will be automatically changed."
+                  },
+                  {
+                    "imagen": "img/sudoku/modificado.png",
+                    "descripcion": "Having put the same coordinates with different numbers we see the result when we enter."
+                  },
+                  {
+                    "imagen": "img/sudoku/error.png",
+                    "descripcion": "In the game, it is validated that characters other than numbers are not entered."
+                  },
+                  {
+                    "imagen": "img/sudoku/score.png",
+                    "descripcion": "Once the game is finished you will see your result in the initial menu, these records are saved in a text file."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tooltip": "Download images by mail",
+            "imagen": "img/download.jpg",
+            "programa": [
+              {
+                "titulo": "Download images by mail",
+                "texto": "The system was developed in console with a single function to be able to download attachments with the specified extensions of a TXT file, as when its procedure is finished, the program deletes the mail after having downloaded the attachments. In the TXT file you can configure the mail account, check the inbox every so often, put the path where the files will be downloaded and put the amount of how many emails you want to download.",
+                "nota": "",
+                "descripciones": [
+                  {
+                    "imagen": "img/descarga_img/download.png",
+                    "descripcion": "When the program is executed, it starts to connect to the email that was indicated in the configuration file to later be able to connect to your inbox and check if there are emails to download the attachments. The attachments will only be downloaded with the extensions that are specified in the configuration."
+                  },
+                  {
+                    "imagen": "img/descarga_img/files.jpg",
+                    "descripcion": "Once downloaded the attachment is taken to the route indicated in the configuration, then check if there are no more emails and then delete the mail and continue with the next email."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Python",
+        "imagen": "img/python.png",
+        "descripcion": "Python is a language that I am just beginning to learn, the idea of learning this language is for the management of AI.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "JSON, XML",
+        "imagen": "img/json.png",
+        "descripcion": "Most of the information contained in this web page is by a JSON file.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "MySql, SQL",
+        "imagen": "img/db.png",
+        "descripcion": "MySQL and SQL are the two data managers that I use mostly for my applications.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "WinDev",
+        "imagen": "img/windev.png",
+        "descripcion": "It is a program where I develop all kinds of software for PC, using a technology called W which is the main programming language used by WinDev.",
+        "titulo": "Projects made in WinDev",
+		    "sistemas": [
+          {
+            "tooltip": "Horo",
+            "imagen": "img/reloj2.jpg",
+            "programa": [
+              {
+                "titulo": "Schedule management",
+                "texto": "The system was created to carry out the control of the schedules of each employee, the system is multi-company which means that there can be several companies in the program and manage them based on their departments. The system carries several functions such as: vacations, permits, overtime, non-working days, etc.",
+                "nota": "System created by the company Desarrollo Innovador de Sistemas",
+                "descripciones": [
+                  {
+                    "imagen": "img/otros/reloj.jpg",
+                    "descripcion": "The message module is used to add, modify and delete messages that will appear when the user registers, can be customized by dates, by type of registration (at what time they appear) or by messages that will always appear when the user registers their entry, exit, etc."
+                  },
+                  {
+                    "imagen": "img/otros/reloj.jpg",
+                    "descripcion": "The module of non-working days is used to manage the days that a worker does not work, as well as to prevent the employee from registering and not affecting his report."
+                  },
+                  {
+                    "imagen": "img/otros/reloj.jpg",
+                    "descripcion": "The overtime module is used to manage the extra hours of both entry and exit to the user."
+                  },
+                  {
+                    "imagen": "img/otros/reloj.jpg",
+                    "descripcion": "The user has access to a module where he/she can manage his/her vacations, permissions and justifications, in this way the administrator can control all this data in the administrator's menu."
+                  },
+                  {
+                    "imagen": "img/otros/reloj.jpg",
+                    "descripcion": "The payroll module serves to make the payroll of all users for each company with a single click, thus helping the administrator to make this process faster and easier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "WebDev",
+        "imagen": "img/webdev.png",
+        "descripcion": "WebDev is a program of the WinDev family, this system develops web pages dynamically, everything that is developed in PHP, .NET, JSP, etc.",
+		    "sistemas": []
+      }
+    ]
+  },
+  {
+    "modulo":"info_extra",
+    "language_mode": "Spanish mode",
+    "menu": ["Index","Knowledge","Experience","Certifications"],
+    "leyend_footer" : "¡Thank you for visiting my Website!"
+  }
+ ]

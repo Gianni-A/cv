@@ -13,6 +13,10 @@ body {
   clear:both;
 }
 
+.title_logo {
+    margin-left: 135px;
+}
+
 .superior {
     background-color: #424243;
     width: 100%;
@@ -22,7 +26,8 @@ body {
 }
 
 .cuadro-superior {
-    width: 810px;
+    /*width: 810px;*/
+    width: auto;
     height: 70px;
     margin: auto;
 }
@@ -33,6 +38,16 @@ body {
     float: left;
     margin-top: -10px;
 	margin-left:100px;
+}
+
+.information_language {
+    float: right;
+    font-size: 23px;
+    margin-top: 27px;
+    margin-right: 80px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
 }
 
 @media screen and (max-width:6400px) and (min-width:681px) {
@@ -71,7 +86,7 @@ body {
 .cuadro-menu {
     width: 100%;
     height: 50px;
-    background-color: #fcd293; 
+    background-color: #fcaa2e; 
     margin-top: -16px;
     /*padding-left: 150px;*/
 }

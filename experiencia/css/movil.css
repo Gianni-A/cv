@@ -44,6 +44,10 @@ a link.depth-0 {
     margin-bottom: -10px;
 }
 
+.information_language {
+    display: none;
+}
+
 .principal-text {
     color: white;
     font-size: 20px;

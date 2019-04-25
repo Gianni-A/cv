@@ -1,7 +1,13 @@
 ﻿[
   {
     "modulo": "certificados",
+    "title" : "Certificados",
     "cursos":[
+      {
+        "titulo": "PHP con Laravel",
+        "texto": "Curso aprobado de PHP con Laravel.",
+        "url": "laravel.pdf"
+      },
       {
         "titulo": "HTML5, CSS",
         "texto": "Curso aprobado de HTML5 con CSS3 para la creación de páginas web",
@@ -16,11 +22,21 @@
   },
   {
     "modulo": "experiencia",
+    "title": "Experiencia",
     "proyectos": [
+      {
+        "titulo": "STX",
+        "imagen": "img/stx.png",
+        "descripcion": "Actualmente estoy laborando para la empresa STX las cuales aprendi y creci mucho profesionalmente. Anteriormente estaba en el puesto como desarrollador back-end con php, actualmente me encuentro en el area de desarrollo moviles en Android con el lenguage de programación Java. He estado laborando para la empresa por 1 año y 4 meses.",
+        "empresa": "STX",
+        "website": "http://www.stx.com.mx/",
+        "imagen_empresa": "img/logo_empresa/stx.png",
+        "descripcion_empresa": "STX es una empresa que se dedica al desarrollo de software para las plataformas web y moviles. Tambien cuentan con plataformas ya disponibles que trabajan bajo el concepto de SaaS (Software as a Service) las cuales manejan plataformas como ERPs, pago de servicios como son de agua, luz, telefono, transacciones de recargas electronicas, etc."
+      },
       {
         "titulo": "Desarrollo Innovador de Sistemas",
         "imagen": "img/dis.png",
-        "descripcion": "Mi último trabajo fue en Desarrollo Innovador de Sistemas, en donde colabore como desarrollador, diseñador y otras funcionalidades. Manejando el IDE Windev para crear aplicaciones de escritorio así como servicios de Windows para hacer ciertas funcionalidades. Tiempo de trabajo 2 años y 9 meses.",
+        "descripcion": "Mi primer trabajo fue en Desarrollo Innovador de Sistemas, en donde colabore como desarrollador, diseñador y otras funcionalidades. Manejando el IDE Windev para crear aplicaciones de escritorio así como servicios de Windows para hacer ciertas funcionalidades. Tiempo de trabajo 2 años y 9 meses.",
         "empresa": "DISXII",
         "website": "http://www.disxii.com/",
         "imagen_empresa": "img/disxii2.png",
@@ -66,11 +82,12 @@
   },
   {
     "modulo": "Conocimiento",
+    "title": "Proyectos y conocimientos",
     "lenguages": [
       {
         "nombre": "PHP",
         "imagen": "img/php.jpg",
-        "descripcion": "PHP es el segundo lenguaje con mayor conocimiento y experiencia en el ámbito laboral.",
+        "descripcion": "PHP es el primer lenguaje con mayor conocimiento y experiencia en el ámbito laboral.",
         "titulo": "Proyectos realizados en PHP",
         "sistemas": [
           {
@@ -202,6 +219,12 @@
         ]
       },
       {
+        "nombre": "Laravel",
+        "imagen": "img/laravel.png",
+        "descripcion": "Conocimientos en el framework Laravel.",
+		    "sistemas": []
+      },
+      {
         "nombre": "HTML, HTML5",
         "imagen": "img/html.png",
         "descripcion": "HTML5 conocimientos y experiencia de un 70%.",
@@ -214,14 +237,32 @@
 		    "sistemas": []
       },
       {
+        "nombre": "Bootstrap",
+        "imagen": "img/bootstrap.png",
+        "descripcion": "Conocimientos en el framework Bootstrap.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Git - Github",
+        "imagen": "img/github.png",
+        "descripcion": "Conocimientos y experiencia en la plataforma Git para el control de versiones.",
+		    "sistemas": []
+      },
+      {
         "nombre": "Web Responsive Design",
         "imagen": "img/WRD.jpg",
         "descripcion": "Responsive Design es una de las tecnologías que tengo conocimientos básico-intermedio para hacer maquetado de páginas web de modo escritorio a móviles.",
 		    "sistemas": []
       },
       {
+        "nombre": "Webpack",
+        "imagen": "img/webpack.png",
+        "descripcion": "Conocimientos en manejador de paquetes webpack.",
+		    "sistemas": []
+      },
+      {
         "nombre": "Javascript",
-        "imagen": "img/javascript.jpg",
+        "imagen": "img/javascript.png",
         "descripcion": "Manejo Javascript como experiencia básica lo cual me ayuda a realizar algunas interacciones para el usuario dentro del HTML.",
 		    "sistemas": []
       },
@@ -229,6 +270,12 @@
         "nombre": "JQuery",
         "imagen": "img/jquery.png",
         "descripcion": "Jquery es una potente librería de Javascript la cual me ayuda a agilizar y/u optimizar los procesos del usuario.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "React JS",
+        "imagen": "img/reactjs.png",
+        "descripcion": "React JS es una libreria que ayuda a la creación de Paginas web bajo el concepto de WebComponents.",
 		    "sistemas": []
       },
       {
@@ -418,9 +465,15 @@
         ]
       },
       {
+        "nombre": "Python",
+        "imagen": "img/python.png",
+        "descripcion": "Python es un lenguage que apenas estoy comenzando, la idea de aprender este lenguage es para el manejo de AI.",
+		    "sistemas": []
+      },
+      {
         "nombre": "JSON, XML",
         "imagen": "img/json.png",
-        "descripcion": "La mayoría de toda la información que contiene esta página web esta por un archivo JSON.",
+        "descripcion": "La mayoría de la información que contiene esta página web esta por un archivo JSON.",
 		    "sistemas": []
       },
       {
@@ -477,5 +530,11 @@
 		    "sistemas": []
       }
     ]
+  },
+  {
+    "modulo":"info_extra",
+    "language_mode": "English mode",
+    "menu": ["Inicio","Conocimientos","Experiencia","Certificaciones"],
+    "leyend_footer" : "¡Gracias por su visita!"
   }
  ]

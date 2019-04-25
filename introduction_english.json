@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Welcome",
+    "language_mode": "Spanish mode",
+    "leyend": "AI is the next level that I would like to learn and get some experience",
+    "menu": ["Index","Knowledge","Experience","Certificates"],
+    "introduccion_perfil": "Profile introduction",
+    "descripcion_perfil": "Hi, my name is Gianni Alvarado and I am a Software Engineer. I have @time of experience making software and I love what I do, I like to make programs about Dynamic Websites, Mobile Apps and Desktop programs. Nowadays I am programming in languages like Java, kotlin to make apps on Android, PHP as a back end and much more. About Databases I know how to use some tools like MySQL and SQL Server. Every day I am always learning new technologies because I like to be updated, about Machine Learning, Virtual Reality, Augmented Reality, javascript, testing, UI/UX, etc.",
+    "title_curso":"Courses",
+    "descripcion_curso": "In this section it's going to show some courses that I am following to be updated and growing in my profession. My favorite courses are www.platzi.com and www.video2brain.com",
+    "cursos": ["Coursera is an online learning platform founded by Stanford professors that offers courses, specializations, and degrees.","Platzi is a platform where there are many different kind of courses that helps me to study more languages and being updated on new versions and new more things.","Video2Brain was a platform that helped me to improve a lot my knowledge when I was beginning as a back-end, front-end."
+    ],
+    "title_tiempo" : "Free time",
+    "descripcion_tiempo" : "Besides, sometimes when I have free time I usually read news to be updated and also helps me in what techonology I should study more.",
+    "btn_text" : "More Information",
+	"leyend_footer" : "¡Thank you for visiting my Website!",
+    "hobby" : [
+		"Emol is a famous website from Chile where you can find a variarity news of everything but specially you can find more about technology.",
+        "Hipertextual is also a news website which is specialized just in technology."
+    ]
+  }
+]

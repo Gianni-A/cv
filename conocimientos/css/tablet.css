@@ -34,6 +34,15 @@ body {
     margin-top: -10px;
 }
 
+.information_language {
+    float: right;
+    font-size: 23px;
+    margin-top: 29px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
 .principal-text {
     float: left;
     color: white;
@@ -59,7 +68,7 @@ body {
 .cuadro-menu {
     width: 100%;
     height: 50px;
-    background-color: #c4ddbb; 
+    background-color: #5ebf3c; 
     margin-top: -16px;
     padding-left: 100px;
    

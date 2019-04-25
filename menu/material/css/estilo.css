@@ -32,6 +32,15 @@ body {
     
 }
 
+.information_language {
+    float: right;
+    font-size: 23px;
+    margin-top: 30px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
 .titulo {
     float: left;
     font-size: 23px;

@@ -26,20 +26,75 @@ $(document).ready(function() {
     });
 });
 
+let file_information = "";
+let proyectos_en = "";
+let proyectos_acerca = "";
+
+var get_language = localStorage.getItem("language_mode");
+
+if(get_language == "spanish") {
+    file_information = "../../informacion.json";
+    proyectos_en = "Proyectos en ";
+    proyectos_acerca = "Proyectos acerca de ";
+} else {
+    file_information = "../../information_english.json";
+    proyectos_en = "Projects on ";
+    proyectos_acerca = "Projects about ";
+}
+
+function changeLanguage() {
+  var get_language = localStorage.getItem("language_mode");
+  if(get_language == "spanish") {
+      localStorage.setItem("language_mode", "english");
+  }
+  else {
+      localStorage.setItem("language_mode", "spanish");
+  }
+  location.reload();
+}
+
+loadJSON(file_information, function (main_response) {
+    var main_data = JSON.parse(main_response);
+    let title_page_json = main_data[1].title;
+    let language_json = main_data[3].language_mode;
+    let leyend_footer_json = main_data[3].leyend_footer;
+    let menu_inicio = main_data[3].menu[0];
+    let menu_conocimiento = main_data[3].menu[1];
+    let menu_experiencia = main_data[3].menu[2];
+    let menu_certificados = main_data[3].menu[3];
+
+    //const title_page = document.getElementById('title_page');
+    const m_inicio = document.getElementById('inicio');
+    const m_conocimiento = document.getElementById('conocimientos');
+    const m_experiencia = document.getElementById('experiencia');
+    const m_certificados = document.getElementById('certificados');
+    const language_mode = document.getElementById('language_mode');
+    const leyend_footer = document.getElementById('leyend_footer');
+
+    //title_page.innerHTML = title_page_json;
+    m_inicio.innerHTML = menu_inicio;
+    m_conocimiento.innerHTML = menu_conocimiento;
+    m_experiencia.innerHTML = menu_experiencia;
+    m_certificados.innerHTML = menu_certificados;
+    language_mode.innerHTML = language_json;
+    leyend_footer.innerHTML = leyend_footer_json;
+
+});
+
 </script>
 
 <script>
     function registra(id){
         localStorage.setItem("sistema",id);
     }
-    loadJSON("../../informacion.json", function (response) {
+    loadJSON(file_information, function (response) {
         var datos = JSON.parse(response);
         var cadena = "";
         var id = localStorage.lenguage;
-        var titulo = "<p class='tittle'>Proyectos acerca de "+datos[2].lenguages[id].nombre+"</p>";
+        var titulo = "<p class='tittle'>"+proyectos_acerca+datos[2].lenguages[id].nombre+"</p>";
         var longitud = datos[2].lenguages[id].sistemas.length - 1;
         var programas = 0;
-        cadena += "<title>Proyectos en "+datos[2].lenguages[id].nombre+"</title>";
+        cadena += "<title>"+proyectos_en+datos[2].lenguages[id].nombre+"</title>";
         cadena += "<h1 class='titulo_cuadro'>"+datos[2].lenguages[id].titulo+"</h1>";
         for(var i=0; i<=longitud; i++){
             cadena += "<div class='contenedor' title='"+datos[2].lenguages[id].sistemas[i].tooltip+"'><a href='sistema/' onclick='registra("+i+")'><img src='"+datos[2].lenguages[id].sistemas[i].imagen+"'></a></div>";
@@ -55,8 +110,11 @@ $(document).ready(function() {
     <div class="mayor">
         <div class="superior">
             <div class="cuadro-superior">
-                <img src="../../img/logo.png" class="logo">
-                <div id="titulo"></div>
+                <div class="logo_title">
+                    <img src="../../img/logo.png" class="logo">
+                    <div id="titulo"></div>
+                </div>
+                <span onclick="changeLanguage()" id="language_mode" class="information_language">English mode</span>
             </div>
         </div>
 
@@ -65,10 +123,10 @@ $(document).ready(function() {
             <div class="menu">
                 <nav id="nav">
                     <ul>
-                        <a href="../../menu/"><li class="bordito">Inicio</li></a>
-                        <a href="../"><li class="bordito">Conocimientos</li></a>
-                        <a href="../../experiencia/"><li class="bordito">Experiencia</li></a>
-                        <a href="../../menu/material/"><li>Certificaciones</li></a>
+                        <a href="../../menu/"><li class="bordito" id="inicio">Inicio</li></a>
+                        <a href="../"><li class="bordito" id="conocimientos">Conocimientos</li></a>
+                        <a href="../../experiencia/"><li class="bordito" id="experiencia">Experiencia</li></a>
+                        <a href="../../menu/material/"><li id="certificados">Certificaciones</li></a>
                     </ul>
                 </nav>
             </div>
@@ -84,7 +142,7 @@ $(document).ready(function() {
 
     <footer>
         <div class="pie">
-            <p class="texto-pie">¡Gracias por su visita!</p>
+            <p class="texto-pie" id="leyend_footer">¡Gracias por su visita!</p>
         </div>
     </footer>
 </body>

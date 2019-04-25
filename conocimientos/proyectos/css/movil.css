@@ -29,6 +29,10 @@ body{
     margin-left: -50px;
 }
 
+.information_language {
+    display: none;
+}
+
 .tittle {
     font-size: 20px;
     color: white;

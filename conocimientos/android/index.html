@@ -5,6 +5,7 @@
 <title>Cash Move App</title>
     <link rel="stylesheet" href="css/estilo.css" />
 
+    <script type="text/javascript" src="../../js/funciones.js"></script>
 	<script type="text/javascript" src="plugins/jquery.js"></script>
     <script type="text/javascript" src="plugins/cycle-plugin.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -14,22 +15,43 @@
 	$('#fade').cycle();
 	});
 
+    var get_language = localStorage.getItem("language_mode");
+    let description_info = "";
+
+    if(get_language == "spanish") {
+        file_information = "../../informacion.json";
+        description_info = "Disfruta una de las mejores Apps para consultar tus registros sobre casas de empeños, de tal manera que puedas llevar un control de registros acerca de las casas de empeños y sus productos.\nEsta App también te ayudara a realizar estadísticas por las cuales podrás analizar cuál de estos lugares te favorecen más al hacer una compra.";
+    } else {
+        file_information = "../../information_english.json";
+        description_info = "Enjoy one of the best Apps to check your pawnshop records, so you can keep track of records about pawnshops and their products.\nThis App will also help you make statistics by which you can analyze which from these places they favor you more when making a purchase.";
+    }
+
+    loadJSON(file_information, function (main_response) {
+        var main_data = JSON.parse(main_response);
+        let menu_inicio = main_data[3].menu[0];
+        let menu_conocimiento = main_data[3].menu[1];
+        let menu_experiencia = main_data[3].menu[2];
+        let menu_certificados = main_data[3].menu[3];
+
+        const description_app = document.getElementById('content');
+        const m_inicio = document.getElementById('inicio');
+        const m_conocimiento = document.getElementById('conocimiento');
+        const m_experiencia = document.getElementById('experiencia');
+        const m_certificados = document.getElementById('certificados');
+
+        description_app.innerHTML = description_info;
+        m_inicio.innerHTML = menu_inicio;
+        m_conocimiento.innerHTML = menu_conocimiento;
+        m_experiencia.innerHTML = menu_experiencia;
+        m_certificados.innerHTML = menu_certificados;
+        
+    });
+
 </script>
-
-	<style type="text/css">
-
-
-
-    </style>
 
 </head>
 
 <body>
-
-</body>
-
-
-
     <div class="superior">
         <div class="cuadro-superior">
         <img src="../../img/logo.png" class="logo">
@@ -52,33 +74,26 @@
 		</div>
 
             <div class="columna2">
-
-
-
                 <div class="titulo"></div>
-
-
-                <div class="contenido">
+                <div class="contenido" id="content">
                     <p>Disfruta una de las mejores Apps para consultar tus registros sobre casas de empeños, de tal manera que puedas llevar un control de registros acerca de las casas de empeños y sus productos.</p>
                     <p>Esta App también te ayudara a realizar estadísticas por las cuales podrás analizar cuál de estos lugares te favorecen más al hacer una compra.</p>
                     <!--<a href="" class="link-play"><img src="play.png" class="play"></a>-->
                 </div>
             </div>
-
-
     <div class="cuadro-menu">
     <div class="menu">
         <nav>
             <ul>
-                <a href="../../menu/" class="list"><li>Inicio</li></a>
-                <a href="../../conocimientos/" class="list"><li>Conocimientos</li></a>
-                <a href="../../experiencia/" class="list"><li>Experiencia</li></a>
-                <a href="../../menu/material/" class="list"><li>Certificaciones</li></a>
+                <a href="../../menu/" class="list"><li id="inicio">Inicio</li></a>
+                <a href="../../conocimientos/" class="list"><li id="conocimiento">Conocimientos</li></a>
+                <a href="../../experiencia/" class="list"><li id="experiencia">Experiencia</li></a>
+                <a href="../../menu/material/" class="list"><li id="certificados">Certificaciones</li></a>
             </ul>
         </nav>
        </div>
     </div>
         </div>
     </div>
-    </div>
+</body>
 </html>

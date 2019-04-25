@@ -26,6 +26,62 @@ $(document).ready(function() {
     });
 
 });
+
+let file_information = "";
+let sub_title = "";
+
+var get_language = localStorage.getItem("language_mode");
+
+if(get_language == "spanish") {
+    file_information = "../informacion.json";
+    sub_title = "Conocimientos en diferentes Tecnologías";
+} else {
+    file_information = "../information_english.json";
+    sub_title = "Knowledge in different Technologies";
+}
+
+function changeLanguage() {
+  var get_language = localStorage.getItem("language_mode");
+  if(get_language == "spanish") {
+      localStorage.setItem("language_mode", "english");
+  }
+  else {
+      localStorage.setItem("language_mode", "spanish");
+  }
+  location.reload();
+}
+
+loadJSON(file_information, function (main_response) {
+    var main_data = JSON.parse(main_response);
+    let title_page_json = main_data[2].title;
+    let language_json = main_data[3].language_mode;
+    let leyend_footer_json = main_data[3].leyend_footer;
+    let menu_inicio = main_data[3].menu[0];
+    let menu_conocimiento = main_data[3].menu[1];
+    let menu_experiencia = main_data[3].menu[2];
+    let menu_certificados = main_data[3].menu[3];
+
+    const title_page = document.getElementById('title_page');
+    const m_inicio = document.getElementById('inicio');
+    const m_conocimiento = document.getElementById('conocimiento');
+    const m_experiencia = document.getElementById('experiencia');
+    const m_certificados = document.getElementById('materias');
+    const language_mode = document.getElementById('language_mode');
+    const leyend_footer = document.getElementById('leyend_footer');
+
+    title_page.innerHTML = title_page_json;
+    m_inicio.innerHTML = menu_inicio;
+    m_conocimiento.innerHTML = menu_conocimiento;
+    m_experiencia.innerHTML = menu_experiencia;
+    m_certificados.innerHTML = menu_certificados;
+    language_mode.innerHTML = language_json;
+    leyend_footer.innerHTML = leyend_footer_json;
+
+    const sub_title_page = document.getElementById('subtitle_knowledge');
+    sub_title_page.innerHTML = sub_title;
+
+});
+
 </script>
 </head>
 
@@ -34,7 +90,8 @@ $(document).ready(function() {
         <div class="superior">
             <div class="cuadro-superior">
                 <img src="../img/logo.png" class="logo">
-                <p class="principal-text">Conocimientos con visualización en proyectos</p>
+                <p class="principal-text" id="title_page">Conocimientos con visualización en proyectos</p>
+                <span onclick="changeLanguage()" id="language_mode" class="information_language">English mode</span>
             </div>
         </div>
 
@@ -44,9 +101,9 @@ $(document).ready(function() {
                 <nav id="nav">
                     <ul>
                         <a href="../menu/"><li class="bordito" id="inicio">Inicio</li></a>
-                        <a href="../conocimientos/"><li class="bordito1">Conocimientos</li></a>
+                        <a href="../conocimientos/"><li class="bordito1" id="conocimiento">Conocimientos</li></a>
                         <a href="../experiencia/"><li class="bordito" id="experiencia">Experiencia</li></a>
-                        <a href="../menu/material/"><li id="materias">Certificaciones</li></a>
+                        <a href="../menu/material/"><li id="materias" id="certificados">Certificaciones</li></a>
                     </ul>
                 </nav>
             </div>
@@ -56,7 +113,7 @@ $(document).ready(function() {
                 localStorage.setItem("lenguage",id);
             }
 
-            loadJSON("../informacion.json", function (response) {
+            loadJSON(file_information, function (response) {
                 var datos = JSON.parse(response);
                 var cadena = "";
                 var ruta = "";
@@ -72,11 +129,11 @@ $(document).ready(function() {
                             ruta = "proyectos/";
                         }
 
-                        cadena += "<a href='"+ruta+"' onClick='registrar("+i+")'><div class='columnas AddHover'><h2>"+datos[2].lenguages[i].nombre+"</h2><img src='"+datos[2].lenguages[i].imagen+"'><p class='texto'>"+datos[2].lenguages[i].descripcion+"</p></div></a>";
+                        cadena += "<a href='"+ruta+"' onClick='registrar("+i+")'><div class='columnas AddHover content_available'><h2>"+datos[2].lenguages[i].nombre+"</h2><img src='"+datos[2].lenguages[i].imagen+"'><p class='texto'>"+datos[2].lenguages[i].descripcion+"</p></div></a>";
                     }
                     else{
 						if (datos[2].lenguages[i].nombre.toLowerCase() == "android"){
-							cadena += "<a href='android/'><div class='columnas AddHover'><h2>"+datos[2].lenguages[i].nombre+"</h2><img src='"+datos[2].lenguages[i].imagen+"'><p class='texto'>"+datos[2].lenguages[i].descripcion+"</p></div></a>";
+							cadena += "<a href='android/'><div class='columnas AddHover content_available'><h2>"+datos[2].lenguages[i].nombre+"</h2><img src='"+datos[2].lenguages[i].imagen+"'><p class='texto'>"+datos[2].lenguages[i].descripcion+"</p></div></a>";
 						}
 						else{
 							cadena += "<div class='columnas'><h2>"+datos[2].lenguages[i].nombre+"</h2><img src='"+datos[2].lenguages[i].imagen+"'><p class='texto'>"+datos[2].lenguages[i].descripcion+"</p></div>";
@@ -96,11 +153,11 @@ $(document).ready(function() {
             }
           }
             });
-            </script>
+        </script>
         <div id="pagina">
             <div class="cuerpo">
                 <div class="cuadro">
-                    <h1 class="titulo">Conocimientos en diferentes Tecnologías</h1>
+                    <h1 class="titulo" id="subtitle_knowledge">Conocimientos en diferentes Tecnologías</h1>
                     <div id="resultado"></div>
 					          <div class="clear"></div>
                 </div>
@@ -109,7 +166,7 @@ $(document).ready(function() {
     </div>
     <footer>
         <div class="pie">
-            <p class="texto-pie">¡Gracias por su visita!</p>
+            <p class="texto-pie" id="leyend_footer">¡Gracias por su visita!</p>
         </div>
     </footer>
 </body>

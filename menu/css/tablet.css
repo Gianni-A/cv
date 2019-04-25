@@ -1,5 +1,5 @@
 .mundo{
-    font-family: 'Lobster', cursive;
+    font-family: sans-serif;
 }
 
 
@@ -31,6 +31,14 @@ body {
     height: 100px;
     float: left;
     margin-top: -20px;
+}
+
+.information_language {
+    float: right;
+    font-size: 23px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
 }
 
 span {

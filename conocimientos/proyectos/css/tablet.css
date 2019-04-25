@@ -35,6 +35,10 @@ body {
     margin-left: 90px;
 }
 
+.information_language {
+    display: none;
+}
+
 .tittle {
     float: left;
     font-size: 25px;

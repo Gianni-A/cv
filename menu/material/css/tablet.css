@@ -30,6 +30,15 @@ body {
     margin-top: -5px;
 }
 
+.information_language {
+    float: right;
+    font-size: 23px;
+    margin-top: 25px;
+    text-decoration: underline;
+    color: #FFF;
+    cursor: pointer;
+}
+
 .titulo {
     float: left;
     font-size: 20px;

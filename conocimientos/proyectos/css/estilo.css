@@ -22,8 +22,8 @@ body {
 }
 
 .cuadro-superior {
-    width: 700px;
-    height: 70px;
+    width: 800px;
+    height: 100%;
     margin: auto;
     
 }
@@ -32,12 +32,26 @@ body {
     width: 250px;
     height: 100px;
     float: left;
-    
+}
+
+.logo_title {
+    width: auto;
+    margin: auto;
+}
+
+.information_language {
+    float: right;
+    font-size: 23px;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
 }
 
 .tittle {
     float: left;
-    padding-left: 70px;
+    padding-left: 20px;
     font-size: 25px;
     font-weight: bold;
     color: white;

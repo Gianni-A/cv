@@ -26,6 +26,48 @@ $(document).ready(function() {
     x[4].style.display = "none";
     });
 });
+
+let file_information = "";
+let title_info = "";
+let subtitle_info = "";
+
+var get_language = localStorage.getItem("language_mode");
+
+if(get_language == "spanish") {
+    file_information = "../../../informacion.json";
+    title_info = "Proyectos acerca de ";
+    subtitle_info = "Conocimientos y experiencias en ";
+} else {
+    file_information = "../../../information_english.json";
+    title_info = "Projects about ";
+    subtitle_info = "Knowledge and experience in ";
+}
+
+//alert(file_information);
+
+loadJSON(file_information, function (main_response) {
+    var main_data = JSON.parse(main_response);
+    
+    let leyend_footer_json = main_data[3].leyend_footer;
+    let menu_inicio = main_data[3].menu[0];
+    let menu_conocimiento = main_data[3].menu[1];
+    let menu_experiencia = main_data[3].menu[2];
+    let menu_certificados = main_data[3].menu[3];
+
+    
+    const m_inicio = document.getElementById('inicio');
+    const m_conocimiento = document.getElementById('conocimientos');
+    const m_experiencia = document.getElementById('experiencia');
+    const m_certificados = document.getElementById('certificados');
+    const leyend_footer = document.getElementById('leyend_footer');
+
+    m_inicio.innerHTML = menu_inicio;
+    m_conocimiento.innerHTML = menu_conocimiento;
+    m_experiencia.innerHTML = menu_experiencia;
+    m_certificados.innerHTML = menu_certificados;
+    leyend_footer.innerHTML = leyend_footer_json;
+
+});
 </script>
 </head>
 <body>
@@ -43,10 +85,10 @@ $(document).ready(function() {
       <div class="menu">
         <nav id="nav">
             <ul>
-                <a href="../../../menu/"><li class="bordito">Inicio</li></a>
-                <a href="../../../conocimientos/"><li class="bordito">Conocimientos</li></a>
-                <a href="../../../experiencia/"><li class="bordito">Experiencia</li></a>
-                <a href="../../../menu/material/"><li>Certificaciones</li></a>
+                <a href="../../../menu/"><li class="bordito" id="inicio">Inicio</li></a>
+                <a href="../../../conocimientos/"><li class="bordito" id="conocimientos">Conocimientos</li></a>
+                <a href="../../../experiencia/"><li class="bordito" id="experiencia">Experiencia</li></a>
+                <a href="../../../menu/material/"><li id="certificados">Certificaciones</li></a>
 
             </ul>
         </nav>
@@ -54,7 +96,7 @@ $(document).ready(function() {
     </div>
 
 	<script>
-        loadJSON("../../../informacion.json", function (response) {
+        loadJSON(file_information, function (response) {
             var datos = JSON.parse(response);
             var cadena = "";
             var imagen;
@@ -62,8 +104,8 @@ $(document).ready(function() {
             var filas = true;
             var id = localStorage.lenguage;
             var idHijo = localStorage.sistema;
-            var nombreLang = "<p class='tittle'>Proyectos acerca de "+datos[2].lenguages[id].nombre+"</p>";
-            var tituloPag = "<title>Conocimientos y experiencias en "+datos[2].lenguages[id].nombre+"</title>";
+            var nombreLang = "<p class='tittle'>"+title_info+datos[2].lenguages[id].nombre+"</p>";
+            var tituloPag = "<title>"+subtitle_info+datos[2].lenguages[id].nombre+"</title>";
             var longitud = datos[2].lenguages[id].sistemas[idHijo].programa[0].descripciones.length - 1;
 
             var nota = datos[2].lenguages[id].sistemas[idHijo].programa[0].nota;
@@ -99,7 +141,7 @@ $(document).ready(function() {
 
     <footer>
         <div class="pie">
-            <p class="texto-pie">¡Gracias por su visita!</p>
+            <p class="texto-pie" id="leyend_footer">¡Gracias por su visita!</p>
         </div>
     </footer>
 </body>
