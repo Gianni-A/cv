@@ -18,7 +18,7 @@ body {
 }
 
 .superior {
-    background-color: #6d6d6d;
+    background-color: #ffffff;
     width: 100%;
     height: 150px;
     margin: 0;
@@ -43,8 +43,9 @@ body {
 }
 
 span {
-    color: white;
+    color: #38c00e;
     font-size: 28px;
+    font-weight: bold;
 }
 
 #close_inicio{

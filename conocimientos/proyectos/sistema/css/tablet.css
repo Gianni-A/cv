@@ -13,7 +13,7 @@ body {
 }
 
 .superior {
-    background-color: #424243;
+    background-color: #ffffff;
     width: 100%;
     height: 100px;
     margin: 0;
@@ -38,7 +38,7 @@ body {
     float: left;
     padding-left: 250px;
     font-size: 25px;
-    color: white;
+    color: #38c00e;
     font-weight: bold;
     margin-top: -60px;
     margin-left: 70px;
@@ -50,7 +50,7 @@ body {
 .cuadro-menu {
     width: 100%;
     height: 50px;
-    background-color: #a05c5c; 
+    background-image: linear-gradient(-90deg, #41e485, #5de7f8);
     margin-top: -2px;
     padding-left: 100px;
 }
@@ -79,6 +79,48 @@ body {
 
 .bordito {
     border-right: 1px solid #FFF;
+}
+
+.bordito1 {
+    color: rgb(18, 0, 82);
+    border-right: 1px solid #FFF;
+}
+
+#inicio{
+    transition: 0.5s;
+}
+
+#inicio:hover{
+    color: #005463;
+    transition: 0.5s;
+}
+
+#experiencia{
+    transition: 0.5s;
+}
+
+#experiencia:hover{
+    /*color: #fcd293;*/
+    color: #005463;
+    transition: 0.5s;
+}
+
+#experiencia{
+    transition: 0.5s;
+}
+
+#experiencia:hover{
+    color: #005463;
+    transition: 0.5s;
+}
+
+#certificados{
+    transition: 0.5s;
+}
+
+#certificados:hover{
+    color: #005463;
+    transition: 0.5s;
 }
 
 a {

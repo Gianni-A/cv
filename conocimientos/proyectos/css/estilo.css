@@ -14,11 +14,10 @@ body {
 
 
 .superior {
-    background-color: #424243;
+    background-color: #ffffff;
     width: 100%;
     height: 100px;
     margin: 0;
-    
 }
 
 .cuadro-superior {
@@ -46,7 +45,7 @@ body {
     margin-left: 40px;
     text-decoration: underline;
     cursor: pointer;
-    color: white;
+    color: #0042ff;
 }
 
 .tittle {
@@ -54,7 +53,7 @@ body {
     padding-left: 20px;
     font-size: 25px;
     font-weight: bold;
-    color: white;
+    color: #38c00e;
     font-weight: bold;
     margin-top: 40px;
 }
@@ -64,7 +63,7 @@ body {
 .cuadro-menu {
     width: 100%;
     height: 50px;
-    background-color: #e37575; 
+    background-image: linear-gradient(-90deg, #41e485, #5de7f8);
 }
 
 .menu {
@@ -101,6 +100,48 @@ body {
 
 .bordito {
     border-right: 1px solid #FFF;
+}
+
+.bordito1 {
+    color: rgb(18, 0, 82);
+    border-right: 1px solid #FFF;
+}
+
+#inicio{
+    transition: 0.5s;
+}
+
+#inicio:hover{
+    color: #005463;
+    transition: 0.5s;
+}
+
+#experiencia{
+    transition: 0.5s;
+}
+
+#experiencia:hover{
+    /*color: #fcd293;*/
+    color: #005463;
+    transition: 0.5s;
+}
+
+#experiencia{
+    transition: 0.5s;
+}
+
+#experiencia:hover{
+    color: #005463;
+    transition: 0.5s;
+}
+
+#certificados{
+    transition: 0.5s;
+}
+
+#certificados:hover{
+    color: #005463;
+    transition: 0.5s;
 }
 
 a {

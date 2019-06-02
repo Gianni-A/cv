@@ -12,7 +12,7 @@ body {
 .superior {
     width: 100%;
     height: 160px;
-    background-color: #424243;
+    background-color: #ffffff;
 }
 
 .cuadro-superior {
@@ -29,8 +29,8 @@ body {
 }
 
 .principal-text {
-    color: white;
-    font-size: 20px;
+    color: #38c00e;
+    font-size: 28px;
     font-weight: bold;
     /*font-family: sans-serif;*/
     margin-top: -5px;
@@ -113,6 +113,10 @@ h2 {
 
 ul{
     display: none;
+}
+
+.content_available {
+    border: 1px dashed #0077ff;
 }
 
 /*Desde aqui empieza lo que es el pie de pagina*/

@@ -15,7 +15,7 @@ body {
 }
 
 .superior {
-    background-color: #424243;
+    background-color: #ffffff;
     width: 100%;
     height: 100px;
     margin: 0;
@@ -41,12 +41,12 @@ body {
     margin-top: 30px;
     text-decoration: underline;
     cursor: pointer;
-    color: white;
+    color: #0042ff;
 }
 
 .principal-text {
     float: left;
-    color: white;
+    color: #38c00e;
     font-size: 20px;
     margin-left: 80px;
     margin-top: 30px;
@@ -70,6 +70,7 @@ body {
     height: 50px;
     background-color: #5ebf3c;
     margin-top: -16px;
+    background-image: linear-gradient(-90deg, #41e485, #5de7f8);
     /*padding-left: 20px;*/
 }
 
@@ -100,7 +101,7 @@ body {
 }
 
 .bordito1 {
-    color: black;
+    color: rgb(18, 0, 82);
     border-right: 1px solid #FFF;
 }
 
@@ -109,7 +110,7 @@ body {
 }
 
 #inicio:hover{
-    color: #8598a0;
+    color: #005463;
     transition: 0.5s;
 }
 
@@ -118,7 +119,8 @@ body {
 }
 
 #experiencia:hover{
-    color: #fcd293;
+    /*color: #fcd293;*/
+    color: #005463;
     transition: 0.5s;
 }
 
@@ -127,7 +129,7 @@ body {
 }
 
 #materias:hover{
-    color: #71bcb3;
+    color: #005463;
     transition: 0.5s;
 }
 
@@ -136,7 +138,7 @@ body {
 }
 
 #contacto:hover{
-    color: #eb6924;
+    color: #005463;
     transition: 0.5s;
 }
 
