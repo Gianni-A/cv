@@ -22,7 +22,7 @@ body {
 }
 
 .cuadro-superior {
-    width: 700px;
+    width: 830px;
     height: 100px;
     margin: auto;
     
@@ -36,7 +36,7 @@ body {
 
 .tittle {
     float: left;
-    padding-left: 70px;
+    padding-left: 60px;
     font-size: 25px;
     color: #38c00e;
     font-weight: bold;
@@ -57,7 +57,7 @@ body {
     width: 650px;
     height: 50px;
     margin: auto;
-    padding-left: 80px;
+    padding-left: 90px;
 }
 
 .link-contact{
@@ -254,10 +254,28 @@ footer {
 
 .texto-pie {
     color: #FFF;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 20px;
     letter-spacing: 2px;
-    font-weight: bold;
     /*font-family: sans-serif;*/
-    margin-top: 20px;
+}
+
+.links_foteer {
+    width:35px; 
+    height: 35px; 
+    margin-top:10px;
+    transition: fill .3s ease-out;
+}
+
+.links_foteer_left {
+    margin-left:20px;
+}
+
+.icon_link {
+    transition: fill .3s ease-out;
+}
+
+.icon_link:hover {
+    fill: #14b1bb;
+    transition: fill .3s ease-out;
 }

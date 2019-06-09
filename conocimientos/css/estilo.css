@@ -22,7 +22,7 @@ body {
 }
 
 .cuadro-superior {
-    width: 1200px;
+    width: 1100px;
     height: 100px;
     margin: auto;
 }
@@ -32,7 +32,6 @@ body {
     height: 100px;
     float: left;
     margin-top: -10px;
-	margin-left:150px;
 }
 
 .information_language {
@@ -48,7 +47,8 @@ body {
     float: left;
     color: #38c00e;
     font-size: 20px;
-    margin-left: 80px;
+    margin-left: 200px;
+    text-align: center;
     margin-top: 30px;
     font-weight: bold;
     /*font-family: sans-serif;*/
@@ -82,7 +82,7 @@ body {
     width: 800px;
     height: 50px;
     margin: auto;
-    padding-left: 150px;
+    padding-left: 170px;
 }
 
 .menu nav ul li {
@@ -243,7 +243,27 @@ footer {
 
 .texto-pie {
     color: #FFF;
-    padding-top: 40px;
+    padding-top: 10px;
     font-size: 20px;
     letter-spacing: 2px;
+}
+
+.links_foteer {
+    width:35px; 
+    height: 35px; 
+    margin-top:10px;
+    transition: fill .3s ease-out;
+}
+
+.links_foteer_left {
+    margin-left:20px;
+}
+
+.icon_link {
+    transition: fill .3s ease-out;
+}
+
+.icon_link:hover {
+    fill: #14b1bb;
+    transition: fill .3s ease-out;
 }

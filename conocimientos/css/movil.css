@@ -139,6 +139,16 @@ footer {
     color: #FFF;
     font-size: 20px;
     letter-spacing: 2px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
+.links_foteer {
+    width:35px; 
+    height: 35px; 
+    margin-top:10px;
+    transition: fill .3s ease-out;
+}
+
+.links_foteer_left {
+    margin-left:20px;
+}

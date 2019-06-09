@@ -12,6 +12,12 @@ $(document).ready(function() {
   //localStorage.setItem("language_mode", "spanish");
 });
 
+/*Typing style*/
+
+
+
+/*Typing style*/
+
 /*Poner la duración de tiempo de experiencia de trabajo*/
 var entrada = new Date("12/1/2014");
 var hoy = new Date();
@@ -42,8 +48,6 @@ else{
 
 var get_language = localStorage.getItem("language_mode");
 
-//alert(get_language);
-
 var get_language = localStorage.getItem("language_mode");
 let file_language = "";
 
@@ -52,6 +56,8 @@ if(get_language == "spanish") {
 } else {
     file_language = "../introduction_english.json";
 }
+
+//alert(file_language);
 
 //Set language
 function changeLanguage() {

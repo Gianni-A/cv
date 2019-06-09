@@ -534,7 +534,7 @@
   {
     "modulo":"info_extra",
     "language_mode": "Spanish mode",
-    "menu": ["Index","Knowledge","Experience","Certifications"],
+    "menu": ["Home","Knowledge","Experience","Certifications"],
     "leyend_footer" : "¡Thank you for visiting my Website!"
   }
  ]

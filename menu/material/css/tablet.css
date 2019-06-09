@@ -16,7 +16,7 @@ body {
 }
 
 .cuadro-superior {
-    width: 600px;
+    width: 670px;
     height: 100px;
     margin: auto;
     
@@ -27,12 +27,13 @@ body {
     height: 100px;
     float: left;
     margin-top: -5px;
+    margin-left: -30px;
 }
 
 .information_language {
     float: right;
     font-size: 23px;
-    margin-top: 25px;
+    margin-top: 33px;
     text-decoration: underline;
     color: #0042ff;
     cursor: pointer;
@@ -44,9 +45,9 @@ body {
     font-weight: bold;
     /*font-family: sans-serif;*/
     color: #38c00e;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-bottom: 10px;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 .cuadro-menu {
@@ -60,7 +61,7 @@ body {
     max-width: 650px;
     height: 50px;
     margin: auto;
-    padding-left: 70px;
+    padding-left: 100px;
 }
 .menu nav ul li {
     float: left;
@@ -79,7 +80,6 @@ body {
 
 .bordito1 {
     color: rgb(18, 0, 82);
-    border-right: 1px solid #FFF;
 }
 
 a {
@@ -159,7 +159,8 @@ footer {
     height: 100px;
     border: 1px solid rgba(255, 255, 255, 0);
     margin: auto;
-    padding-top: 40px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .texto-pie {
@@ -167,4 +168,15 @@ footer {
     font-size: 20px;
     letter-spacing: 2px;
     text-align: center;
+}
+
+.links_foteer {
+    width:35px; 
+    height: 35px; 
+    margin-top:10px;
+    transition: fill .3s ease-out;
+}
+
+.links_foteer_left {
+    margin-left:20px;
 }

@@ -2,8 +2,8 @@
   {
     "title": "Welcome",
     "language_mode": "Spanish mode",
-    "leyend": "AI is the next level that I would like to learn and get some experience",
-    "menu": ["Index","Knowledge","Experience","Certificates"],
+    "leyend": "Gianni Alvarado",
+    "menu": ["Home","Knowledge","Experience","Certificates"],
     "introduccion_perfil": "Profile introduction",
     "descripcion_perfil": "Hi, my name is Gianni Alvarado and I am a Software Engineer. I have @time of experience making software and I love what I do, I like to make programs about Dynamic Websites, Mobile Apps and Desktop programs. Nowadays I am programming in languages like Java, kotlin to make apps on Android, PHP as a back end and much more. About Databases I know how to use some tools like MySQL and SQL Server. Every day I am always learning new technologies because I like to be updated, about Machine Learning, Virtual Reality, Augmented Reality, javascript, testing, UI/UX, etc.",
     "title_curso":"Courses",

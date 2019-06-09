@@ -30,7 +30,7 @@ body {
     height: 100px;
     float: left;
     margin-top: -20px;
-    margin-left: 90px;
+    margin-left: 100px;
 }
 
 .information_language {
@@ -44,7 +44,7 @@ body {
     color: #38c00e;
     font-weight: bold;
     margin-top: -15px;
-    margin-left: 80px;
+    margin-left: 110px;
 }
 
 /* ///////////////////////////////////// */
@@ -134,8 +134,19 @@ footer {
 
 .texto-pie {
     color: #FFF;
-    padding-top: 40px;
+    padding-top: 10px;
     font-size: 20px;
     letter-spacing: 2px;
     /*font-family: sans-serif;*/
+}
+
+.links_foteer {
+    width:35px; 
+    height: 35px; 
+    margin-top:10px;
+    transition: fill .3s ease-out;
+}
+
+.links_foteer_left {
+    margin-left:20px;
 }

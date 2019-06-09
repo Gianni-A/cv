@@ -25,8 +25,7 @@ body {
 }
 
 .cuadro-superior {
-    /*width: 810px;*/
-    width: auto;
+    width: 830px;
     height: 70px;
     margin: auto;
 }
@@ -36,14 +35,14 @@ body {
     height: 100px;
     float: left;
     margin-top: -10px;
-	margin-left:100px;
+	margin-left: -150px;
 }
 
 .information_language {
     float: right;
     font-size: 23px;
     margin-top: 27px;
-    margin-right: 80px;
+    margin-right: 50px;
     text-decoration: underline;
     cursor: pointer;
     color: #0042ff;
@@ -65,7 +64,7 @@ body {
     float: left;
     color: #38c00e;
     font-size: 23px;
-    margin-left: 90px;
+    margin-left: 115px;
     margin-top: 30px;
     font-weight: bold;
     /*font-family: sans-serif;*/
@@ -87,7 +86,7 @@ body {
     height: 50px;
     background-image: linear-gradient(-90deg, #41e485, #5de7f8); 
     margin-top: -16px;
-    /*padding-left: 150px;*/
+    padding-left: 95px;
 }
 
 .menu {
@@ -249,7 +248,27 @@ footer {
 
 .texto-pie {
     color: #FFF;
-    padding-top: 40px;
+    padding-top: 10px;
     font-size: 20px;
     letter-spacing: 2px;
+}
+
+.links_foteer {
+    width:35px; 
+    height: 35px; 
+    margin-top:10px;
+    transition: fill .3s ease-out;
+}
+
+.links_foteer_left {
+    margin-left:20px;
+}
+
+.icon_link {
+    transition: fill .3s ease-out;
+}
+
+.icon_link:hover {
+    fill: #14b1bb;
+    transition: fill .3s ease-out;
 }

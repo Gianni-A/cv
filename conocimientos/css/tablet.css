@@ -21,7 +21,7 @@ body {
 }
 
 .cuadro-superior {
-    width: 700px;
+    width: 780px;
     height: 100px;
     margin: auto;
 }
@@ -31,6 +31,8 @@ body {
     height: 100px;
     float: left;
     margin-top: -10px;
+    margin-left: -35px;
+    margin-right: 70px;
 }
 
 .information_language {
@@ -46,7 +48,6 @@ body {
     float: left;
     color: #38c00e;
     font-size: 20px;
-    margin-left: 15px;
     margin-top: 30px;
     margin-bottom: 10px;
     font-weight: bold;
@@ -76,7 +77,7 @@ body {
     width: 700px;
     height: 50px;
     margin: auto;
-    padding-left: 50px;
+    padding-left: 70px;
 }
 
 .link-contact{
@@ -208,9 +209,18 @@ footer {
 
 .texto-pie {
     color: #FFF;
-    padding-top: 40px;
+    padding-top: 10px;
     font-size: 20px;
     letter-spacing: 2px;
 }
 
+.links_foteer {
+    width:35px; 
+    height: 35px; 
+    margin-top:10px;
+    transition: fill .3s ease-out;
+}
 
+.links_foteer_left {
+    margin-left:20px;
+}

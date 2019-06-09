@@ -21,7 +21,7 @@ body {
 }
 
 .cuadro-superior {
-    width: 700px;
+    width: 650px;
     height: 100px;
     margin: auto;
     
@@ -31,7 +31,7 @@ body {
     width: 250px;
     height: 100px;
     float: left;
-    margin-left: 70px;
+    margin-left: 0px;
 }
 
 .tittle {
@@ -41,7 +41,7 @@ body {
     color: #38c00e;
     font-weight: bold;
     margin-top: -60px;
-    margin-left: 70px;
+    margin-left: 130px;
 }
 
 
@@ -52,14 +52,14 @@ body {
     height: 50px;
     background-image: linear-gradient(-90deg, #41e485, #5de7f8);
     margin-top: -2px;
-    padding-left: 100px;
+    /*padding-left: 160px;*/
 }
 
 .menu {
     width: 600px;
     height: 50px;
     margin: auto;
-    
+    padding-left: 75px;
 }
 
 .link-contact{
@@ -257,10 +257,19 @@ footer {
 
 .texto-pie {
     color: #FFF;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 20px;
     letter-spacing: 2px;
-    font-weight: bold;
     /*font-family: sans-serif;*/
-    margin-top: 20px;
+}
+
+.links_foteer {
+    width:35px; 
+    height: 35px; 
+    margin-top:10px;
+    transition: fill .3s ease-out;
+}
+
+.links_foteer_left {
+    margin-left:20px;
 }

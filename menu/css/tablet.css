@@ -31,6 +31,8 @@ body {
     height: 100px;
     float: left;
     margin-top: -20px;
+    margin-left: -40px;
+    margin-right: 30px;
 }
 
 .information_language {
@@ -42,9 +44,16 @@ body {
 }
 
 span {
+    color: #fff;
+    font-size: 28px;
+}
+
+#title {
     color: #38c00e;
     font-size: 28px;
-    margin-left: 50px;
+    /*font-family:serif;*/
+    margin-left: 40px;
+    margin-top: 10px;
 }
 
 #close_inicio {
@@ -59,7 +68,7 @@ span {
 }
 
 .cabeza {
-    background-image: url(../img/01.jpeg);
+    background-image: url(../img/01.jpg);
     width: 100%;
     height: 100%;
     z-index:-1;
@@ -81,7 +90,7 @@ span {
 
 .mundo {
     padding-top: 50px; 
-    color: #f0bc9b;
+    color: #fff;
     font-size: 30px;
     /*font-family: 'Lobster', cursive;*/
     letter-spacing: 3px;
@@ -104,7 +113,7 @@ span {
     height: 50px;
     margin: auto;
     text-align: center;
-    padding-left: 100px;
+    padding-left: 120px;
 }
 
 .menu nav ul li {
@@ -114,7 +123,7 @@ span {
     margin-right: 15px;
     text-align: center;
     cursor: pointer;
-    padding-right: 5px;
+    padding-right: 20px;
     list-style-type: none;
 }
 
@@ -422,7 +431,18 @@ footer {
 
 .texto-pie {
     color: #FFF;
-    padding-top: 40px;
+    padding-top: 10px;
     font-size: 20px;
     letter-spacing: 2px;
+}
+
+.links_foteer {
+    width:35px; 
+    height: 35px; 
+    margin-top:10px;
+    transition: fill .3s ease-out;
+}
+
+.links_foteer_left {
+    margin-left:20px;
 }

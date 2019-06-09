@@ -21,7 +21,7 @@ body {
 }
 
 .cuadro-superior {
-    width: 800px;
+    width: 719px;
     height: 100%;
     margin: auto;
     
@@ -31,6 +31,7 @@ body {
     width: 250px;
     height: 100px;
     float: left;
+    margin-left: -20px;
 }
 
 .logo_title {
@@ -42,7 +43,7 @@ body {
     float: right;
     font-size: 23px;
     margin-top: 40px;
-    margin-left: 40px;
+    margin-right: 10px;
     text-decoration: underline;
     cursor: pointer;
     color: #0042ff;
@@ -50,7 +51,7 @@ body {
 
 .tittle {
     float: left;
-    padding-left: 20px;
+    padding-left: 30px;
     font-size: 25px;
     font-weight: bold;
     color: #38c00e;
@@ -70,7 +71,7 @@ body {
     max-width: 800px;
     height: 50px;
     margin: auto;
-    padding-left: 170px;
+    padding-left: 190px;
 }
 
 .link-contact{
@@ -236,8 +237,28 @@ footer {
 
 .texto-pie {
     color: #FFF;
-    padding-top: 40px;
+    padding-top: 10px;
     font-size: 20px;
     letter-spacing: 2px;
     /*font-family: sans-serif;*/
+}
+
+.links_foteer {
+    width:35px; 
+    height: 35px; 
+    margin-top:10px;
+    transition: fill .3s ease-out;
+}
+
+.links_foteer_left {
+    margin-left:20px;
+}
+
+.icon_link {
+    transition: fill .3s ease-out;
+}
+
+.icon_link:hover {
+    fill: #14b1bb;
+    transition: fill .3s ease-out;
 }
