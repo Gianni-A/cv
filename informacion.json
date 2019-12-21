@@ -25,9 +25,18 @@
     "title": "Experiencia",
     "proyectos": [
       {
+        "titulo": "International Business Machines Corporation (IBM)",
+        "imagen": "img/ibm.jpg",
+        "descripcion": "Actualmente me encuentro laborando para la empresa de IBM como desarrollador Full-Stack Java Developer, las cuales desempeño actividades como desarrollar nuevos módulos con las tecnologías de Spring boot, React JS, Docker, etc. También doy soporte a otros sistemas con la elaboración de test para tener un control de calidad de los sistemas.",
+        "empresa": "IBM",
+        "website": "https://www.ibm.com/mx-es",
+        "imagen_empresa": "img/logo_empresa/ibm.jpg",
+        "descripcion_empresa": "International Business Machines Corporation (IBM) es una reconocida empresa multinacional estadounidense de tecnología y consultoría con sede en Armonk, Nueva York. IBM fabrica y comercializa hardware y software para computadoras, y ofrece servicios de infraestructura, alojamiento de Internet, y consultoría en una amplia gama de áreas relacionadas con la informática, desde computadoras centrales hasta nanotecnología."
+      },
+      {
         "titulo": "STX",
         "imagen": "img/stx.png",
-        "descripcion": "Actualmente estoy laborando para la empresa STX las cuales aprendi y creci mucho profesionalmente. Anteriormente estaba en el puesto como desarrollador back-end con php, actualmente me encuentro en el area de desarrollo moviles en Android con el lenguage de programación Java. He estado laborando para la empresa por 1 año y 6 meses.",
+        "descripcion": "Labore para la empresa STX. Cuando empece a laborar en la empresa obtuve el puesto como desarrollador back-end y front-end con PHP, después pase a el área de desarrollo de móviles en Android con el lenguaje de programación Java y Kotlin. Además le doy gracias a la empresa que me diera la oportunidad de aprender nuevas tecnologías y desarrollarme más como profesional y emocional. He estado laborando para la empresa por 1 año y 8 meses.",
         "empresa": "STX",
         "website": "http://www.stx.com.mx/",
         "imagen_empresa": "img/logo_empresa/stx.png",
