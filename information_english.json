@@ -94,9 +94,87 @@
     "title": "Projects and knowledge",
     "lenguages": [
       {
+        "nombre": "Java",
+        "imagen": "img/java.png",
+        "descripcion": "Java is one of the technologies I am using nowadays to develop server-side applications with Spring Boot.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Spring Boot",
+        "imagen": "img/spring_boot.png",
+        "descripcion": "Spring Boot is a tool that helps me to create server-side projects creating and managing endpoints with Spring Security.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "React JS",
+        "imagen": "img/reactjs.png",
+        "descripcion": "React JS is a library that helps me to create dynamic web applications and working together with Redux platform.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Webpack",
+        "imagen": "img/webpack.png",
+        "descripcion": "Knowledge and experience in webpack package manager.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Javascript",
+        "imagen": "img/javascript.png",
+        "descripcion": "I use Javascript together with React as basic-medium experience, everything about promises, arrow functions, fetch Api, etc.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Bootstrap",
+        "imagen": "img/bootstrap.png",
+        "descripcion": "Knowledge and experience in Bootstrap framework.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "HTML, HTML5",
+        "imagen": "img/html.png",
+        "descripcion": "Knowledge and experience of HTML5 70%.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "CSS, CSS3",
+        "imagen": "img/css.png",
+        "descripcion": "Knowledge and experience of CSS3 65%.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Git - Github and Gitlab",
+        "imagen": "img/github.png",
+        "descripcion": "Knowledge and experience on Git platform for version control.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Web Responsive Design",
+        "imagen": "img/WRD.jpg",
+        "descripcion": "This website is made in Responsive Design mode in order to display the information in mobile, table and desktop mode.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Android",
+        "imagen": "img/android.png",
+        "descripcion": "Development in Android with java and kotlin which I made some Apps with SQLite database and consume Api with Retrofit.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "JSON, XML",
+        "imagen": "img/json.png",
+        "descripcion": "Most of the information contained in this web page is by a JSON file.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "MySql, SQL",
+        "imagen": "img/db.png",
+        "descripcion": "MySQL and SQL are the two data managers that I use mostly for my applications.",
+		    "sistemas": []
+      },
+      {
         "nombre": "PHP",
         "imagen": "img/php.jpg",
-        "descripcion": "PHP is the first language with the most knowledge and experience I have in workplace.",
+        "descripcion": "PHP is the second language with the most knowledge and experience I have in workplace behind Java.",
         "titulo": "Projects made in PHP",
         "sistemas": [
           {
@@ -232,77 +310,17 @@
         "imagen": "img/laravel.png",
         "descripcion": "Knowledge in Laravel framework.",
 		    "sistemas": []
-      },
-      {
-        "nombre": "HTML, HTML5",
-        "imagen": "img/html.png",
-        "descripcion": "Knowledge and experience of HTML5 70%.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "CSS, CSS3",
-        "imagen": "img/css.png",
-        "descripcion": "Knowledge and experience of CSS3 65%.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "Bootstrap",
-        "imagen": "img/bootstrap.png",
-        "descripcion": "Knowledge in Bootstrap framework.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "Git - Github",
-        "imagen": "img/github.png",
-        "descripcion": "Knowledge and experience on Git platform for version control.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "Web Responsive Design",
-        "imagen": "img/WRD.jpg",
-        "descripcion": "Responsive Design is one of the technologies that I have basic-intermediate knowledge to make web pages from desktop to mobile mode.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "Webpack",
-        "imagen": "img/webpack.png",
-        "descripcion": "Knowledge in webpack package manager.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "Javascript",
-        "imagen": "img/javascript.png",
-        "descripcion": "I use Javascript as a basic experience which helps me to perform some interactions for the user within the HTML.",
-		    "sistemas": []
-      },
+      },      
       {
         "nombre": "JQuery",
         "imagen": "img/jquery.png",
-        "descripcion": "Jquery is a powerful Javascript library which helps me streamline and / or optimize user processes.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "React JS",
-        "imagen": "img/reactjs.png",
-        "descripcion": "React JS is a library that helps the creation of web pages under the concept of WebComponents.",
+        "descripcion": "Jquery was a powerful Javascript library which helps me before to use React Js.",
 		    "sistemas": []
       },
       {
         "nombre": "MVC",
         "imagen": "img/mvc.jpg",
         "descripcion": "It is a model that you use in a project called 'AdminFactura'. This model was used to organize the project and its maintenance will easier.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "Java",
-        "imagen": "img/java.png",
-        "descripcion": "Java is one of the technologies that I used to develop a CHAT system with sockets.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "Android",
-        "imagen": "img/android.png",
-        "descripcion": "Development in Android with java (Native) which I can develop Apps with SQLite database.",
 		    "sistemas": []
       },
       {
@@ -477,18 +495,6 @@
         "nombre": "Python",
         "imagen": "img/python.png",
         "descripcion": "Python is a language that I am just beginning to learn, the idea of learning this language is for the management of AI.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "JSON, XML",
-        "imagen": "img/json.png",
-        "descripcion": "Most of the information contained in this web page is by a JSON file.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "MySql, SQL",
-        "imagen": "img/db.png",
-        "descripcion": "MySQL and SQL are the two data managers that I use mostly for my applications.",
 		    "sistemas": []
       },
       {
