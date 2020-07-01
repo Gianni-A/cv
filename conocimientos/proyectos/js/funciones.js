@@ -18,7 +18,7 @@ var get_language = localStorage.getItem("language_mode");
 if(get_language == "spanish") {
   file_information = "../../informacion.json";
   proyectos_en = "Proyectos en ";
-  proyectos_acerca = "Proyectos acerca de ";
+  proyectos_acerca = "Proyectos de ";
 } else {
   file_information = "../../information_english.json";
   proyectos_en = "Projects on ";

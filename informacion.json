@@ -1,7 +1,7 @@
 ﻿[
   {
     "modulo": "certificados",
-    "title" : "Certificados",
+    "title" : "Certificaciones",
     "cursos":[
       {
         "titulo": "PHP con Laravel",
@@ -22,7 +22,7 @@
   },
   {
     "modulo": "experiencia",
-    "title": "Experiencia",
+    "title": "Experiencia Laboral",
     "proyectos": [
       {
         "titulo": "International Business Machines Corporation (IBM)",

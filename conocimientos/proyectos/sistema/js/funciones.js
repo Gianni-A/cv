@@ -25,8 +25,6 @@ if(get_language == "spanish") {
   subtitle_info = "Knowledge and experience in ";
 }
 
-//alert(file_information);
-
 loadJSON(file_information, function (main_response) {
   var main_data = JSON.parse(main_response);
   
