@@ -1,7 +1,7 @@
 ﻿[
   {
     "modulo": "certificados",
-    "title" : "Certificados",
+    "title" : "Certificaciones",
     "cursos":[
       {
         "titulo": "PHP con Laravel",
@@ -22,7 +22,7 @@
   },
   {
     "modulo": "experiencia",
-    "title": "Experiencia",
+    "title": "Experiencia Laboral",
     "proyectos": [
       {
         "titulo": "International Business Machines Corporation (IBM)",
@@ -94,9 +94,87 @@
     "title": "Proyectos y conocimientos",
     "lenguages": [
       {
+        "nombre": "Java",
+        "imagen": "img/java.png",
+        "descripcion": "Java es una de las tecnologías que mayormente uso a dia dia en mi area laboral y personal.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Spring Boot",
+        "imagen": "img/spring_boot.png",
+        "descripcion": "Spring Boot es una herramienta que me ayuda en lo personal y laboral para crear proyectos del lado del servidor.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "React JS",
+        "imagen": "img/reactjs.png",
+        "descripcion": "React JS es una libreria que me ayuda hoy en dia a crear aplicaciones web dinamicas junto con la tecnologia Redux.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Webpack",
+        "imagen": "img/webpack.png",
+        "descripcion": "Conocimiento y experiencia en el manejador de paquetes webpack.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Javascript",
+        "imagen": "img/javascript.png",
+        "descripcion": "Manejo Javascript como experiencia básica lo cual lo manejo mucho cuando uso React.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Bootstrap",
+        "imagen": "img/bootstrap.png",
+        "descripcion": "Conocimientos y experiencia en el framework Bootstrap.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "HTML, HTML5",
+        "imagen": "img/html.png",
+        "descripcion": "HTML5 conocimientos y experiencia de un 70%.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "CSS, CSS3",
+        "imagen": "img/css.png",
+        "descripcion": "CSS3 conocimientos y experiencia de un 65%.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Git - Github y Gitlab",
+        "imagen": "img/github.png",
+        "descripcion": "Conocimientos y experiencia en la plataforma Git para el control de versiones.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Web Responsive Design",
+        "imagen": "img/WRD.jpg",
+        "descripcion": "Esta es una pagina web Responsive Design, la cual se adapta al tamaño de los moviles, tablets y computadora.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Android",
+        "imagen": "img/android.png",
+        "descripcion": "Desarrollo en Android con java y kotlin las cuales tuve experiencia creando y dando soporte a las aplicaciones de android.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "JSON, XML",
+        "imagen": "img/json.png",
+        "descripcion": "La mayoría de la información que contiene esta página web esta por un archivo JSON.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "MySql, SQL",
+        "imagen": "img/db.png",
+        "descripcion": "MySQL y SQL son los dos gestores de datos que uso mayormente para mis aplicaciones.",
+		    "sistemas": []
+      },
+      {
         "nombre": "PHP",
         "imagen": "img/php.jpg",
-        "descripcion": "PHP es el primer lenguaje con mayor conocimiento y experiencia en el ámbito laboral.",
+        "descripcion": "PHP es el segundo lenguaje con mayor conocimiento y experiencia en el ámbito laboral debajo de Java.",
         "titulo": "Proyectos realizados en PHP",
         "sistemas": [
           {
@@ -234,75 +312,15 @@
 		    "sistemas": []
       },
       {
-        "nombre": "HTML, HTML5",
-        "imagen": "img/html.png",
-        "descripcion": "HTML5 conocimientos y experiencia de un 70%.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "CSS, CSS3",
-        "imagen": "img/css.png",
-        "descripcion": "CSS3 conocimientos y experiencia de un 65%.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "Bootstrap",
-        "imagen": "img/bootstrap.png",
-        "descripcion": "Conocimientos en el framework Bootstrap.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "Git - Github",
-        "imagen": "img/github.png",
-        "descripcion": "Conocimientos y experiencia en la plataforma Git para el control de versiones.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "Web Responsive Design",
-        "imagen": "img/WRD.jpg",
-        "descripcion": "Responsive Design es una de las tecnologías que tengo conocimientos básico-intermedio para hacer maquetado de páginas web de modo escritorio a móviles.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "Webpack",
-        "imagen": "img/webpack.png",
-        "descripcion": "Conocimientos en manejador de paquetes webpack.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "Javascript",
-        "imagen": "img/javascript.png",
-        "descripcion": "Manejo Javascript como experiencia básica lo cual me ayuda a realizar algunas interacciones para el usuario dentro del HTML.",
-		    "sistemas": []
-      },
-      {
         "nombre": "JQuery",
         "imagen": "img/jquery.png",
-        "descripcion": "Jquery es una potente librería de Javascript la cual me ayuda a agilizar y/u optimizar los procesos del usuario.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "React JS",
-        "imagen": "img/reactjs.png",
-        "descripcion": "React JS es una libreria que ayuda a la creación de Paginas web bajo el concepto de WebComponents.",
+        "descripcion": "Jquery es una libreria con la cual trabaje antes de que saliera al publico React Js.",
 		    "sistemas": []
       },
       {
         "nombre": "Patron de diseño MVC",
         "imagen": "img/mvc.jpg",
         "descripcion": "Es un modelo que use en un proyecto llamado 'AdminFactura'. Este modelo fue usado para organizar el proyecto y fuera más sencillo su mantenimiento.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "Java",
-        "imagen": "img/java.png",
-        "descripcion": "Java es una de las tecnologías que use para desarrollar un sistema de CHAT con sockets.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "Android",
-        "imagen": "img/android.png",
-        "descripcion": "Desarrollo en Android con java (Nativo) las cuales puedo desarrollar Apps con base de datos SQLite.",
 		    "sistemas": []
       },
       {
@@ -477,18 +495,6 @@
         "nombre": "Python",
         "imagen": "img/python.png",
         "descripcion": "Python es un lenguage que apenas estoy comenzando, la idea de aprender este lenguage es para el manejo de AI.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "JSON, XML",
-        "imagen": "img/json.png",
-        "descripcion": "La mayoría de la información que contiene esta página web esta por un archivo JSON.",
-		    "sistemas": []
-      },
-      {
-        "nombre": "MySql, SQL",
-        "imagen": "img/db.png",
-        "descripcion": "MySQL y SQL son los dos gestores de datos que uso mayormente para mis aplicaciones.",
 		    "sistemas": []
       },
       {

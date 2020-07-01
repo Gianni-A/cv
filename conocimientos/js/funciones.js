@@ -56,6 +56,7 @@ loadJSON(file_information, function (main_response) {
   const language_mode = document.getElementById('language_mode');
   const leyend_footer = document.getElementById('leyend_footer');
 
+  document.title = title_page_json;
   title_page.innerHTML = title_page_json;
   m_inicio.innerHTML = menu_inicio;
   m_conocimiento.innerHTML = menu_conocimiento;
