@@ -184,7 +184,7 @@
               {
                 "titulo": "Sistema de Horarios",
                 "texto": "El sistema de horarios fue desarrollado con el fin de mejorar los procesos que se tenían dentro de la Universidad en cuestión de turnos, ya que presentaban con fallas y malas organizaciones al momento de asignar horarios y actividades para cada usuario.",
-                "nota": "Este proyecto se hizo gracias con otros compañeros de clase la cual fue presentada ante la auditoria para después puedan utilizar el sistema a su criterio.",
+                "nota": "Nota: Este proyecto se hizo gracias con otros compañeros de clase la cual fue presentada ante la auditoria para después puedan utilizar el sistema a su criterio.",
                 "descripciones": [
                   {
                     "imagen": "img/horarios/inicio.jpg",
@@ -225,7 +225,7 @@
               {
                 "titulo": "Almacén de productos registrados",
                 "texto": "El sistema de almacén fue realizado con el fin de resolver el problema de una empresa en cuanto al inventario de sus productos de cómputo.",
-                "nota": "Este proyecto se realizó por unas prácticas que tome cuando aún estaba cursando la universidad.",
+                "nota": "Nota: Este proyecto se realizó por unas prácticas que tome cuando aún estaba cursando la universidad.",
                 "descripciones": [
                   {
                     "imagen": "img/almacen/login.jpg",
@@ -277,7 +277,7 @@
             "programa": [{
                 "titulo": "Contabilidad electrónica",
                 "texto": "Portal que sirve a las empresas para llevar la Contabilidad electrónica por medio de un portal hecho en web.",
-                "nota": "Sistema creado por la empresa Desarrollo Innovador de Sistemas.",
+                "nota": "Nota: Sistema creado por la empresa Desarrollo Innovador de Sistemas.",
                 "descripciones": [
                   {
                     "imagen": "img/otros/contable.jpg",
@@ -336,7 +336,7 @@
               {
                 "titulo": "Inventario de un zoológico",
                 "texto": "El programa cuenta con un sistema que lleva el control de todos los registros dentro de un zoológico, en el sistema se puede dar de alta, baja y modificaciones.",
-                "nota": "Proyecto creado en la escuela, todo es acerca de Windows forms.",
+                "nota": "Nota: Proyecto creado en la escuela, todo es acerca de Windows forms.",
                 "descripciones": [
                   {
                     "imagen": "img/zoologico/progressbar.jpg",
@@ -389,7 +389,7 @@
               {
                 "titulo": "Calculadora dinámica en consola",
                 "texto": "La calculadora tiene como fin hacer operaciones básicas como sumas, restas, multiplicaciones y divisiones dinámicamente en consola, introduciendo así los números y símbolos para devolverte un resultado, al igual se puede poner paréntesis ().",
-                "nota": "Este proyecto aún no está terminado ya que no soporta más de un paréntesis.",
+                "nota": "Nota: Este proyecto aún no está terminado ya que no soporta más de un paréntesis.",
                 "descripciones": [
                   {
                     "imagen": "img/calculadora/inicio.png",
@@ -422,7 +422,7 @@
               {
                 "titulo": "Juego Sudoku",
                 "texto": "El juego esta creado en modo consola la cual tiene un menú que se puede uno mover con las flechas del teclado y poder seleccionar las opciones. En el juego se pueden ver los puntajes de los usuarios que han jugado con anterioridad. Al igual podrás seleccionar la dificultad del juego.",
-                "nota": "En el juego se validan que no haya un mismo número en X o Y, también valida que no haya un mismo número dentro de los 9 cuadros que se dividen en todo el recuadro.",
+                "nota": "Nota: En el juego se validan que no haya un mismo número en X o Y, también valida que no haya un mismo número dentro de los 9 cuadros que se dividen en todo el recuadro.",
                 "descripciones": [
                   {
                     "imagen": "img/sudoku/inicio.png",
@@ -510,7 +510,7 @@
               {
                 "titulo": "Reloj checador",
                 "texto": "El sistema fue creado para llevar el control de los horarios de cada empleado, el sistema es multi-empresa eso quiere decir que pueden estar varias empresas en el programa y manejarlos en base a sus departamentos. El sistema lleva varias funciones tales como: vacaciones, permisos, horas extras, días inhábiles, etc.",
-                "nota": "Sistema creado por la empresa Desarrollo Innovador de Sistemas",
+                "nota": "Nota: Sistema creado por la empresa Desarrollo Innovador de Sistemas",
                 "descripciones": [
                   {
                     "imagen": "img/otros/reloj.jpg",

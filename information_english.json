@@ -184,7 +184,7 @@
               {
                 "titulo": "Employees' hours System",
                 "texto": "The schedule system was developed in order to improve the processes that took place within the University in question of shifts, which are presented with flaws and bad organizations at the time of assigning schedules and activities for each user.",
-                "nota": "This project was made thanks to other classmates which was presented to the audit and then they can use the system.",
+                "nota": "Note: This project was made thanks to other classmates which was presented to the audit and then they can use the system.",
                 "descripciones": [
                   {
                     "imagen": "img/horarios/inicio.jpg",
@@ -225,7 +225,7 @@
               {
                 "titulo": "Store of registered products",
                 "texto": "The warehouse system was made in order to solve a company's problem regarding the inventory of its computer products.",
-                "nota": "This project was carried out by some practices that I took while I was studying at the university.",
+                "nota": "Note: This project was carried out by some practices that I took while I was studying at the university.",
                 "descripciones": [
                   {
                     "imagen": "img/almacen/login.jpg",
@@ -277,7 +277,7 @@
             "programa": [{
                 "titulo": "Accounting's system",
                 "texto": "Portal that serves companies to take electronic accounting through a web portal.",
-                "nota": "System created by the company Desarrollo Innovador de Sistemas.",
+                "nota": "Note: System created by the company Desarrollo Innovador de Sistemas.",
                 "descripciones": [
                   {
                     "imagen": "img/otros/contable.jpg",
@@ -336,7 +336,7 @@
               {
                 "titulo": "Inventory of a zoo",
                 "texto": "The program has some tools that takes control of all records within a zoo, in the system you can add, download and modify data.",
-                "nota": "Project created in the school, everything is about Windows forms.",
+                "nota": "Note: Project created in the school, everything is about Windows forms.",
                 "descripciones": [
                   {
                     "imagen": "img/zoologico/progressbar.jpg",
@@ -389,7 +389,7 @@
               {
                 "titulo": "Dynamic calculator in console",
                 "texto": "The calculator has the purpose of doing basic operations such as adding, subtracting, multiplying and dividing dynamically in the console, thus introducing the numbers and symbols to return a result, as well as parentheses ().",
-                "nota": "This project is not finished yet since it does not support more than one parenthesis. The next version will appear with this function.",
+                "nota": "Note: This project is not finished yet since it does not support more than one parenthesis. The next version will appear with this function.",
                 "descripciones": [
                   {
                     "imagen": "img/calculadora/inicio.png",
@@ -422,7 +422,7 @@
               {
                 "titulo": "Sudoku game",
                 "texto": "The game is created in console mode which has a menu that can be moved with the arrow keys and to select the options. Also you can see the scores of users who have played previously and you can select the difficulty of the game.",
-                "nota": "The game has some validation that there is not a same number in X or Y, it also validates that there is not a same number within the 9 frames that are divided in the whole box.",
+                "nota": "Note: The game has some validation that there is not a same number in X or Y, it also validates that there is not a same number within the 9 frames that are divided in the whole box.",
                 "descripciones": [
                   {
                     "imagen": "img/sudoku/inicio.png",
@@ -510,7 +510,7 @@
               {
                 "titulo": "Schedule management",
                 "texto": "The system was created to carry out the control of the schedules of each employee, the system is multi-company which means that there can be several companies in the program and manage them based on their departments. The system carries several functions such as: vacations, permits, overtime, non-working days, etc.",
-                "nota": "System created by the company Desarrollo Innovador de Sistemas",
+                "nota": "Note: System created by the company Desarrollo Innovador de Sistemas",
                 "descripciones": [
                   {
                     "imagen": "img/otros/reloj.jpg",
