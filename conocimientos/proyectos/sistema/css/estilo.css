@@ -18,14 +18,14 @@ body {
     width: 100%;
     height: 100px;
     margin: 0;
-    
+
 }
 
 .cuadro-superior {
     width: 830px;
     height: 100px;
     margin: auto;
-    
+
 }
 
 .logo {
@@ -97,7 +97,6 @@ body {
 }
 
 #experiencia:hover{
-    /*color: #fcd293;*/
     color: #005463;
     transition: 0.5s;
 }
@@ -126,7 +125,7 @@ a {
 
 .menu nav ul li:hover {
     color: black;
-    
+
 }
 
 
@@ -159,7 +158,7 @@ h1 {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+
 }
 
 
@@ -167,7 +166,7 @@ h1 {
     width: 100%;
     height: 200px;
     margin-top: 40px;
-    
+
 }
 
 .filaA img {
@@ -176,11 +175,7 @@ h1 {
     float: left;
     padding-right: 50px;
     padding-left: 30px;
-    
-}
 
-.title-project {
-    /*margin-left: 80px;*/
 }
 
 .github-icon {
@@ -188,7 +183,6 @@ h1 {
     height: 40px;
     float: right;
     margin-top: -10px;
-
 }
 
 .text-principal {
@@ -211,9 +205,9 @@ h1 {
 .filaB {
     width: 100%;
     height: 200px;
-    
+
     margin-top: 40px;
-    
+
 }
 
 .filaB img {
@@ -222,7 +216,7 @@ h1 {
     float: right;
     padding-right: 50px;
     padding-left: 30px;
-    
+
 }
 
 .filaB p {
@@ -255,7 +249,7 @@ h1 {
 footer {
     width: 100%;
     height: 100px;
-    background-color: #363434; 
+    background-color: #363434;
 }
 
 .pie {
@@ -275,8 +269,8 @@ footer {
 }
 
 .links_foteer {
-    width:35px; 
-    height: 35px; 
+    width:35px;
+    height: 35px;
     margin-top:10px;
     transition: fill .3s ease-out;
 }
