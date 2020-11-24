@@ -7,16 +7,19 @@
     "introduccion_perfil": "Profile introduction",
     "descripcion_perfil": "Hi, my name is Gianni Alvarado and I am a Software Engineer. I have @time of experience making software and I love what I do, I like to make programs about Dynamic Websites, Mobile Apps and Desktop programs. Nowadays I am programming in languages like Java, kotlin to make apps on Android, PHP as a back end and much more. About Databases I know how to use some tools like MySQL and SQL Server. Every day I am always learning new technologies because I like to be updated, about Machine Learning, Virtual Reality, Augmented Reality, javascript, testing, UI/UX, etc.",
     "title_curso":"Courses",
-    "descripcion_curso": "In this section it's going to show some courses that I am following to be updated and growing in my profession. My favorite courses are www.platzi.com and www.video2brain.com",
-    "cursos": ["Coursera is an online learning platform founded by Stanford professors that offers courses, specializations, and degrees.","Platzi is a platform where there are many different kind of courses that helps me to study more languages and being updated on new versions and new more things.","Video2Brain was a platform that helped me to improve a lot my knowledge when I was beginning as a back-end, front-end."
+    "descripcion_curso": "In this section it's going to show some courses that I am following to be updated and growing in my profession. My favorite platform is Platzi",
+    "cursos": [
+      "Udemy is a platform where I reinforce my knowledge mostly about front-end, back-end and devops.",
+      "Platzi is a platform where there are many different kind of courses that helps me to study more languages and being updated on new versions and new more things.",
+      "Youtube help me to find a specific thing need to solve that Udemy or Platzi don't have, could be say it is like a complement."
     ],
-    "title_tiempo" : "Free time",
-    "descripcion_tiempo" : "Besides, sometimes when I have free time I usually read news to be updated and also helps me in what techonology I should study more.",
-    "btn_text" : "More Information",
+    "title_tiempo" : "Github and Gitlab",
+    "descripcion_tiempo" : "In this block you are going to find 2 platforms I use everyday to save personal projects or projects I created by courses I have done.",
+    "btn_text" : "Go to the page",
 	"leyend_footer" : "¡Thank you for visiting my Website!",
     "hobby" : [
-		"Emol is a famous website from Chile where you can find a variarity news of everything but specially you can find more about technology.",
-        "Hipertextual is also a news website which is specialized just in technology."
+		"Github is a platform where I save all my personal repositories from projects were created to improve my knowledge in a specific technology or to improve my coding skills.",
+    "Gitlab is a platform where I save projects created base on the course I took from Platzi, Udemy and Youtube. It helps me to organize better what kind of project are (base on the technologies)."
     ]
   }
 ]

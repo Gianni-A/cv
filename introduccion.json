@@ -7,19 +7,19 @@
     "introduccion_perfil": "Introducción de mi perfil",
     "descripcion_perfil": "Soy desarrollador de software con más de @time de experiencia realizando procesos para diferentes plataformas, ya sea para Web, para Apps Móviles, para software de escritorio. En mis tiempos libres me dedico mucho a estudiar nuevas tecnologías las cuales me ayudan a desarrollarme más como profesional al igual realizo proyectos personales para adquirir experiencia en el ámbito tecnológico. En otras ocasiones me informo de nuevas plataformas que van saliendo día a día, esto es con el fin de poder estar actualizado y preparándome más para nuevos retos.",
     "title_curso":"Cursos",
-    "descripcion_curso": "En este apartado se mostraran los cursos que sigo día a día con el fin de prepárame más. Los cursos que mayormente sigo son www.platzi.com y www.video2brain.com",
+    "descripcion_curso": "En este apartado se mostraran los cursos que sigo día a día con el fin de prepárame más. El curso que mayormente sigo es Platzi",
     "cursos": [
-        "Coursera es una plataforma de educación virtual gratuita nacida en octubre de 2011 y desarrollada por académicos de la Universidad de Stanford con el fin de brindar oferta de educación masiva a la población, con cursos en inglés y otros idiomas como el español, francés, italiano y chino.",
+        "Udemy una plataforma en donde he reforzado mis conocimientos para el front-end, back-end y devops.",
         "Platzi es uno de los cursos que me ha ayudado a mejorar y conocer nuevas tecnologías y métodos de la programación, al igual veo de diferentes categorías como Marketing Online, Diseño web y Aplicaciones móviles.",
-        "Video2Brain son cursos españoles en donde aprendí y sigo aprendiendo mucho acerca de diseño y programación, estos cursos siempre están actualizados al día de lo que se está usando."
+        "Youtube es el sitio donde encuentro cosas especificas sobre alguna tecnologia donde no lo pueda encontrar en Udemy o Platzi."
     ],
-    "title_tiempo" : "Tiempos Libres",
-    "descripcion_tiempo" : "Por otro lado también aprovecho del tiempo libre para leer y estar enterado de las innovaciones que pasa por todo el mundo y así mismo para prepararme de nuevos retos que enfrentaría en un futuro dado.",
-    "btn_text" : "Más Información",
+    "title_tiempo" : "Github y Gitlab",
+    "descripcion_tiempo" : "En este apartado encontraras 2 plataformas que uso cada dia para guardar mis repositorios ya sean cursos que he hecho o projectos personales.",
+    "btn_text" : "Ir al repositorio",
 	"leyend_footer" : "¡Gracias por su visita!",
     "hobby" : [
-        "Emol es una de las páginas de noticias más conocidas por el lado Chileno la cual me abarco de noticias que son sobre el tema acerca de tecnología y más.",
-        "Hipertextual o antes conocido como ALT 1040 es una página española que muestra noticias de lo que está pasando en el mundo, mayormente leo noticias acerca de tecnología."
+        "En Github guardo todos los repositorios como lo son proyectos personales donde no son lucrativos si no opensource y sirve para mejorar en tecnologias.",
+        "En Gitlab guardo todos los proyectos que he hecho en los cursos que he tomado desde Platzi, Udemy y youtube. De igual manera no son lucrativos y pueden ser usados como opensource."
     ]
   }
 ]

@@ -207,7 +207,7 @@ h1 {
     font-size: 20px;
     color: #7f7f7f;
     /*font-family: sans-serif;*/
-	margin-bottom:40px;
+	
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -246,6 +246,7 @@ h1 {
     position: absolute;
     margin-top: -198px;
     width: 700px;
+
 }
 
 .curso{
@@ -280,8 +281,6 @@ h1 {
 }
 
 .curso-imagen {
-    width: 200px;
-    height: 140px;
     margin-top: 10px;
 }
 
@@ -323,16 +322,15 @@ h1 {
 }
 
 .times-imagen {
-    width: 500px;
-    height: 200px;
     margin-bottom: 15px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    border-bottom: 3px solid #e0e0e0;
 }
 
 .col1 {
     width: 500px;
-    height: 550px;
+    height: 630px;
     margin-left: 100px;
     margin-top: 40px;
     background-color: white;
@@ -343,8 +341,7 @@ h1 {
 
 .col2 {
     width: 500px;
-    height: 550px;
-    
+    height: 630px;
     margin-top: 40px;
     margin-left: 100px;
     background-color: white;
@@ -355,8 +352,8 @@ h1 {
 
 .tiempos {
     margin-top: 40px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
     font-size: 20px;
     color: #7f7f7f;
 }
@@ -427,6 +424,7 @@ footer {
     border: 1px solid rgba(255, 255, 255, 0);
     margin: auto;
     text-align: center;
+    margin-top: 100px;
 }
 
 .texto-pie {
