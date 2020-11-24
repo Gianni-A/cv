@@ -185,6 +185,7 @@
                 "titulo": "Sistema de Horarios",
                 "texto": "El sistema de horarios fue desarrollado con el fin de mejorar los procesos que se tenían dentro de la Universidad en cuestión de turnos, ya que presentaban con fallas y malas organizaciones al momento de asignar horarios y actividades para cada usuario.",
                 "nota": "Nota: Este proyecto se hizo gracias con otros compañeros de clase la cual fue presentada ante la auditoria para después puedan utilizar el sistema a su criterio.",
+                "git": "",
                 "descripciones": [
                   {
                     "imagen": "img/horarios/inicio.jpg",
@@ -226,6 +227,7 @@
                 "titulo": "Almacén de productos registrados",
                 "texto": "El sistema de almacén fue realizado con el fin de resolver el problema de una empresa en cuanto al inventario de sus productos de cómputo.",
                 "nota": "Nota: Este proyecto se realizó por unas prácticas que tome cuando aún estaba cursando la universidad.",
+                "git": "https://github.com/Gianni-A/Warehouse",
                 "descripciones": [
                   {
                     "imagen": "img/almacen/login.jpg",
@@ -258,6 +260,7 @@
                 "titulo": "Autorización de solicitudes",
                 "texto": "El portal de autorización fue creado para asuntos internos por parte de la empresa DisXII.",
                 "nota": "",
+                "git": "",
                 "descripciones": [
                   {
                     "imagen": "img/otros/correct.png",
@@ -278,6 +281,7 @@
                 "titulo": "Contabilidad electrónica",
                 "texto": "Portal que sirve a las empresas para llevar la Contabilidad electrónica por medio de un portal hecho en web.",
                 "nota": "Nota: Sistema creado por la empresa Desarrollo Innovador de Sistemas.",
+                "git": "",
                 "descripciones": [
                   {
                     "imagen": "img/otros/contable.jpg",
@@ -337,6 +341,7 @@
                 "titulo": "Inventario de un zoológico",
                 "texto": "El programa cuenta con un sistema que lleva el control de todos los registros dentro de un zoológico, en el sistema se puede dar de alta, baja y modificaciones.",
                 "nota": "Nota: Proyecto creado en la escuela, todo es acerca de Windows forms.",
+                "git": "",
                 "descripciones": [
                   {
                     "imagen": "img/zoologico/progressbar.jpg",
@@ -390,6 +395,7 @@
                 "titulo": "Calculadora dinámica en consola",
                 "texto": "La calculadora tiene como fin hacer operaciones básicas como sumas, restas, multiplicaciones y divisiones dinámicamente en consola, introduciendo así los números y símbolos para devolverte un resultado, al igual se puede poner paréntesis ().",
                 "nota": "Nota: Este proyecto aún no está terminado ya que no soporta más de un paréntesis.",
+                "git": "https://github.com/Gianni-A/Calculator",
                 "descripciones": [
                   {
                     "imagen": "img/calculadora/inicio.png",
@@ -423,6 +429,7 @@
                 "titulo": "Juego Sudoku",
                 "texto": "El juego esta creado en modo consola la cual tiene un menú que se puede uno mover con las flechas del teclado y poder seleccionar las opciones. En el juego se pueden ver los puntajes de los usuarios que han jugado con anterioridad. Al igual podrás seleccionar la dificultad del juego.",
                 "nota": "Nota: En el juego se validan que no haya un mismo número en X o Y, también valida que no haya un mismo número dentro de los 9 cuadros que se dividen en todo el recuadro.",
+                "git": "https://github.com/Gianni-A/SudokuGame",
                 "descripciones": [
                   {
                     "imagen": "img/sudoku/inicio.png",
@@ -476,6 +483,7 @@
                 "titulo": "Descarga de imágenes por correo",
                 "texto": "El sistema se desarrolló en consola con una sola función de poder descargar adjuntos con las extensiones especificadas de un archivo TXT, al igual cuando su procedimiento termine, el programa elimina el correo después de haber descargado los adjuntos. En el archivo TXT se puede configurar la cuenta de correo, revisar la bandeja de entrada cada cierto tiempo, poner la ruta donde se descargaran los archivos y poner la cantidad de cuantos correos se desean descargar.",
                 "nota": "",
+                "git": "https://github.com/Gianni-A/DescargaAdjuntos",
                 "descripciones": [
                   {
                     "imagen": "img/descarga_img/download.png",
@@ -547,6 +555,7 @@
     ]
   },
   {
+    "git_title": "Repositorio del proyecto",
     "modulo":"info_extra",
     "language_mode": "English mode",
     "menu": ["Inicio","Conocimientos","Experiencia","Certificaciones"],

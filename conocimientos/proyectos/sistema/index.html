@@ -53,18 +53,22 @@
 	<script>
         loadJSON(file_information, function (response) {
             var datos = JSON.parse(response);
-            var cadena = "";
+            var cadena = '';
+            let cadenaGit = '';
             var imagen;
             var descripcion;
             var filas = true;
             var id = localStorage.lenguage;
             var idHijo = localStorage.sistema;
+            const gitTitle = datos[3].git_title;
+            const gitLink = datos[2].lenguages[id].sistemas[idHijo].programa[0].git;
             var nombreLang = "<p class='tittle'>"+title_info+datos[2].lenguages[id].nombre+"</p>";
             var tituloPag = "<title>"+subtitle_info+datos[2].lenguages[id].nombre+"</title>";
             var longitud = datos[2].lenguages[id].sistemas[idHijo].programa[0].descripciones.length - 1;
+            cadenaGit = gitLink !== "" ? "<a href='"+gitLink+"'><img src='img/general/github-icon.png' class='github-icon' title='"+gitTitle+"'></a>": "7";
             
             var nota = datos[2].lenguages[id].sistemas[idHijo].programa[0].nota;
-            cadena += "<h1>"+datos[2].lenguages[id].sistemas[idHijo].programa[0].titulo+"</h1>";
+            cadena += "<h1 class='title-project'>"+datos[2].lenguages[id].sistemas[idHijo].programa[0].titulo+" "+cadenaGit+"</h1>";
             cadena += "<p class='text-principal'>"+datos[2].lenguages[id].sistemas[idHijo].programa[0].texto+"</p>";
             for(var i=0; i<=longitud; i++){
                 imagen = datos[2].lenguages[id].sistemas[idHijo].programa[0].descripciones[i].imagen;

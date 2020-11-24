@@ -179,7 +179,20 @@ h1 {
     
 }
 
+.title-project {
+    /*margin-left: 80px;*/
+}
+
+.github-icon {
+    width: 80px;
+    height: 40px;
+    float: right;
+    margin-top: -10px;
+
+}
+
 .text-principal {
+    margin-top: 30px;
     margin-left: 40px;
     margin-right: 40px;
     /*font-family: sans-serif;*/
@@ -188,6 +201,7 @@ h1 {
 
 .filaA p {
     padding-left: 50px;
+    padding-right: 20px;
     letter-spacing: 2px;
     font-size: 20px;
     padding-top: 30px;

@@ -185,6 +185,7 @@
                 "titulo": "Employees' hours System",
                 "texto": "The schedule system was developed in order to improve the processes that took place within the University in question of shifts, which are presented with flaws and bad organizations at the time of assigning schedules and activities for each user.",
                 "nota": "Note: This project was made thanks to other classmates which was presented to the audit and then they can use the system.",
+                "git": "",
                 "descripciones": [
                   {
                     "imagen": "img/horarios/inicio.jpg",
@@ -226,6 +227,7 @@
                 "titulo": "Store of registered products",
                 "texto": "The warehouse system was made in order to solve a company's problem regarding the inventory of its computer products.",
                 "nota": "Note: This project was carried out by some practices that I took while I was studying at the university.",
+                "git": "https://github.com/Gianni-A/Warehouse",
                 "descripciones": [
                   {
                     "imagen": "img/almacen/login.jpg",
@@ -258,6 +260,7 @@
                 "titulo": "Authorization of requests",
                 "texto": "The authorization's portal was created for internal matters by DisXII company.",
                 "nota": "",
+                "git": "",
                 "descripciones": [
                   {
                     "imagen": "img/otros/correct.png",
@@ -278,6 +281,7 @@
                 "titulo": "Accounting's system",
                 "texto": "Portal that serves companies to take electronic accounting through a web portal.",
                 "nota": "Note: System created by the company Desarrollo Innovador de Sistemas.",
+                "git": "",
                 "descripciones": [
                   {
                     "imagen": "img/otros/contable.jpg",
@@ -337,6 +341,7 @@
                 "titulo": "Inventory of a zoo",
                 "texto": "The program has some tools that takes control of all records within a zoo, in the system you can add, download and modify data.",
                 "nota": "Note: Project created in the school, everything is about Windows forms.",
+                "git": "",
                 "descripciones": [
                   {
                     "imagen": "img/zoologico/progressbar.jpg",
@@ -390,6 +395,7 @@
                 "titulo": "Dynamic calculator in console",
                 "texto": "The calculator has the purpose of doing basic operations such as adding, subtracting, multiplying and dividing dynamically in the console, thus introducing the numbers and symbols to return a result, as well as parentheses ().",
                 "nota": "Note: This project is not finished yet since it does not support more than one parenthesis. The next version will appear with this function.",
+                "git": "https://github.com/Gianni-A/Calculator",
                 "descripciones": [
                   {
                     "imagen": "img/calculadora/inicio.png",
@@ -423,6 +429,7 @@
                 "titulo": "Sudoku game",
                 "texto": "The game is created in console mode which has a menu that can be moved with the arrow keys and to select the options. Also you can see the scores of users who have played previously and you can select the difficulty of the game.",
                 "nota": "Note: The game has some validation that there is not a same number in X or Y, it also validates that there is not a same number within the 9 frames that are divided in the whole box.",
+                "git": "https://github.com/Gianni-A/SudokuGame",
                 "descripciones": [
                   {
                     "imagen": "img/sudoku/inicio.png",
@@ -476,6 +483,7 @@
                 "titulo": "Download images by mail",
                 "texto": "The system was developed in console with a single function to be able to download attachments with the specified extensions of a TXT file, as when its procedure is finished, the program deletes the mail after having downloaded the attachments. In the TXT file you can configure the mail account, check the inbox every so often, put the path where the files will be downloaded and put the amount of how many emails you want to download.",
                 "nota": "",
+                "git": "https://github.com/Gianni-A/DescargaAdjuntos",
                 "descripciones": [
                   {
                     "imagen": "img/descarga_img/download.png",
@@ -547,6 +555,7 @@
     ]
   },
   {
+    "git_title": "Source project",
     "modulo":"info_extra",
     "language_mode": "Spanish mode",
     "menu": ["Home","Knowledge","Experience","Certifications"],
