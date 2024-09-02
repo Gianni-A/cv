@@ -112,6 +112,18 @@
 		    "sistemas": []
       },
       {
+        "nombre": "Redux",
+        "imagen": "img/redux.jpg",
+        "descripcion": "Normalmente lo uso junto con las aplicaciones hechas en React para el manejo del estado.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "React Query",
+        "imagen": "img/reactQuery.png",
+        "descripcion": "Lo acabo de aprende para mejorar el estado de las aplicaciones cuando se hacen llamados a las apis",
+		    "sistemas": []
+      },
+      {
         "nombre": "Webpack",
         "imagen": "img/webpack.png",
         "descripcion": "Conocimiento y experiencia en el manejador de paquetes webpack.",
@@ -121,6 +133,36 @@
         "nombre": "Javascript",
         "imagen": "img/javascript.png",
         "descripcion": "Manejo Javascript como experiencia básica lo cual lo manejo mucho cuando uso React.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Flutter",
+        "imagen": "img/flutter.png",
+        "descripcion": "Crear aplicaciones mobiles con Flutter, por el momento solo ha sido aprendizaje.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "REST API",
+        "imagen": "img/rest.png",
+        "descripcion": "Normalmente lo uso para el intercambio de información entre el Back y Front.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "GraphQL",
+        "imagen": "img/graphql.png",
+        "descripcion": "Lo estoy usando para la interaccion de apis de un cliente entre servidor y aplicacion mobile.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Nest JS",
+        "imagen": "img/nestjs.jpg",
+        "descripcion": "Por el momento uso este lenguaje para crear el servidor y poderse conectar con una aplicacion mobile.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "NPM",
+        "imagen": "img/npm.png",
+        "descripcion": "Sistema de gestion de librerias que uso actualmente para los proyectos de Javascript.",
 		    "sistemas": []
       },
       {
@@ -166,7 +208,7 @@
 		    "sistemas": []
       },
       {
-        "nombre": "MySql, SQL",
+        "nombre": "MySql, SQL, PostgreSQL",
         "imagen": "img/db.png",
         "descripcion": "MySQL y SQL son los dos gestores de datos que uso mayormente para mis aplicaciones.",
 		    "sistemas": []

@@ -112,6 +112,18 @@
 		    "sistemas": []
       },
       {
+        "nombre": "Redux",
+        "imagen": "img/redux.jpg",
+        "descripcion": "I use this library to work with React applications to manage the state of the app.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "React Query",
+        "imagen": "img/reactQuery.png",
+        "descripcion": "I just took a course about how to use it, however I am thinking to use on my next projects.",
+		    "sistemas": []
+      },
+      {
         "nombre": "Webpack",
         "imagen": "img/webpack.png",
         "descripcion": "Knowledge and experience in webpack package manager.",
@@ -121,6 +133,36 @@
         "nombre": "Javascript",
         "imagen": "img/javascript.png",
         "descripcion": "I use Javascript together with React as basic-medium experience, everything about promises, arrow functions, fetch Api, etc.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Flutter",
+        "imagen": "img/flutter.png",
+        "descripcion": "I use this framework to create application on Android and IOS.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "REST API",
+        "imagen": "img/rest.png",
+        "descripcion": "Nowadays I use this technology to communicate applications between the back and front.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "GraphQL",
+        "imagen": "img/graphql.png",
+        "descripcion": "I am using this on a personal project to reduce the request time for using on an mobile application.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "Nest JS",
+        "imagen": "img/nestjs.jpg",
+        "descripcion": "Used this framework to create APIs more powerfull on perfomance and this service is served to a mobile application.",
+		    "sistemas": []
+      },
+      {
+        "nombre": "NPM",
+        "imagen": "img/npm.png",
+        "descripcion": "I use this package manager to handle the projects and libraries on my Javascript projects.",
 		    "sistemas": []
       },
       {
@@ -166,7 +208,7 @@
 		    "sistemas": []
       },
       {
-        "nombre": "MySql, SQL",
+        "nombre": "MySql, SQL, PostgreSQL",
         "imagen": "img/db.png",
         "descripcion": "MySQL and SQL are the two data managers that I use mostly for my applications.",
 		    "sistemas": []
